@@ -57,7 +57,7 @@ RM v2 меньше, но различает треки внутри сессии
 ### GRPO
 Для контекста $x$ политика генерирует группу из $G$ слейтов по $K = 5$ треков (авторегрессивно, без повторов). Награда слейта $R = \sum_{j} \gamma^{j-1} r(x, a_j)$, $\gamma = 0.9$; каждый трек оценивается при реальной истории. Преимущество нормируется внутри группы, KL к SFT считается точно по всему каталогу:
 
-$$\mathcal{L} = -\frac{1}{BG}\sum_{b,g} \frac{R_{bg} - \bar R_b}{\operatorname{std}_b R + \varepsilon}\sum_{j}\log \pi_\theta(a_{bgj} \mid x_b, a_{bg,<j}) + \beta\,\frac{1}{BG}\sum_{b,g,j} \operatorname{KL}\big(\pi_\theta \,\|\, \pi_{\text{SFT}}\big)$$
+$$\mathcal{L} = -\frac{1}{BG}\sum_{b,g} \frac{R_{bg} - \bar R_b}{\mathrm{std}_b R + \varepsilon}\sum_{j}\log \pi_\theta(a_{bgj} \mid x_b, a_{bg,\lt j}) + \beta \frac{1}{BG}\sum_{b,g,j} \mathrm{KL}\big(\pi_\theta  \Vert  \pi_{\text{SFT}}\big)$$
 
 Один шаг градиента на батч (клиппинг PPO не нужен), $B = 64$, $G = 8$ (16 для hit), lr $2\cdot10^{-5}$, 600 шагов. GRPO, генерация слейтов, точный KL и reward model реализованы с нуля в `rl/`, из `transformers` берётся только архитектура GPT-2.
 

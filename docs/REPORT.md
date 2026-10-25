@@ -60,7 +60,7 @@ $$x_t = E_{\text{item}}[i_t] + E_{\text{artist}}[a_t] + E_{\text{ratio}}[b^{\tex
 
 GPT-2 (4 слоя, ширина 256, контекст 256 событий) даёт скрытое состояние $h_t$. Вероятность следующего трека - softmax по всему каталогу с общей таблицей эмбеддингов:
 
-$$\pi_\theta(i \mid e_{\le t}) = \operatorname{softmax}_i\left(h_t^\top E_{\text{item}}[i] + b_i\right)$$
+$$\pi_\theta(i \mid e_{\le t}) = \mathrm{softmax}_i\left(h_t^\top E_{\text{item}}[i] + b_i\right)$$
 
 ### Обучение
 
@@ -78,7 +78,7 @@ $$\mathcal{L}_{\text{SFT}}(\theta) = -\frac{1}{T}\sum_{t} \log \pi_\theta(i_{t+1
 
 Для истории $x$ и трека-кандидата $c$ RM выдаёт ожидаемую долю дослушивания:
 
-$$\hat r(x, c) = \sigma\big(f_\phi(x, c)\big) \approx \mathbb{E}\left[\tfrac{\text{ratio}}{100} \,\middle|\, x, c\right]$$
+$$\hat r(x, c) = \sigma\big(f_\phi(x, c)\big) \approx \mathbb{E}\left[\tfrac{\text{ratio}}{100}  \middle|  x, c\right]$$
 
 Вторая голова предсказывает $P(\text{continue})$: продолжит ли пользователь слушать в этой сессии (следующее событие в пределах 30 минут).
 
@@ -126,20 +126,20 @@ $$\mathcal{L}_{\text{RM}} = -\big[y \log \hat r + (1-y)\log(1-\hat r)\big] + \te
 
 Для контекста $x$ политика генерирует группу из $G = 8$ слейтов (16 для hit-награды). Слейт - $K = 5$ треков, сгенерированных по одному с добавлением в контекст, без повторов. Каждый трек оценивается RM при **реальной** истории $x$, награды складываются с затуханием $\gamma = 0.9$:
 
-$$R(x, a_{1:K}) = \sum_{j=1}^{K} \gamma^{\,j-1}\, r(x, a_j)$$
+$$R(x, a_{1:K}) = \sum_{j=1}^{K} \gamma^{ j-1}  r(x, a_j)$$
 
 ### Преимущество и функция потерь
 
 Преимущество нормируется внутри группы слейтов одного контекста, отдельная value-сеть не нужна:
 
-$$A_g = \frac{R_g - \operatorname{mean}(R_1, \dots, R_G)}{\operatorname{std}(R_1, \dots, R_G) + \varepsilon}$$
+$$A_g = \frac{R_g - \mathrm{mean}(R_1, \dots, R_G)}{\mathrm{std}(R_1, \dots, R_G) + \varepsilon}$$
 
-$$\mathcal{L}_{\text{GRPO}}(\theta) = -\frac{1}{BG}\sum_{b=1}^{B}\sum_{g=1}^{G} A_{bg}\sum_{j=1}^{K}\log \pi_\theta\!\left(a_{bgj} \mid x_b, a_{bg,<j}\right) \;+\; \beta\,\frac{1}{BG}\sum_{b,g}\sum_{j=1}^{K} \operatorname{KL}\!\left(\pi_\theta(\cdot \mid s_{bgj}) \,\middle\|\, \pi_{\text{ref}}(\cdot \mid s_{bgj})\right)$$
+$$\mathcal{L}_{\text{GRPO}}(\theta) = -\frac{1}{BG}\sum_{b=1}^{B}\sum_{g=1}^{G} A_{bg}\sum_{j=1}^{K}\log \pi_\theta\left(a_{bgj} \mid x_b, a_{bg,\lt j}\right)  +  \beta \frac{1}{BG}\sum_{b,g}\sum_{j=1}^{K} \mathrm{KL}\left(\pi_\theta(\cdot \mid s_{bgj})  \middle\Vert   \pi_{\text{ref}}(\cdot \mid s_{bgj})\right)$$
 
 - Первое слагаемое - policy gradient с групповой базой: повышает вероятность слейтов с $A > 0$.
 - Второе - KL-штраф к SFT-модели $\pi_{\text{ref}}$. Он считается **точно**, по всему каталогу из 50k треков, а не оценкой по сэмплу:
 
-$$\operatorname{KL}(\pi_\theta \,\|\, \pi_{\text{ref}}) = \sum_{i} \pi_\theta(i)\,\big[\log \pi_\theta(i) - \log \pi_{\text{ref}}(i)\big]$$
+$$\mathrm{KL}(\pi_\theta  \Vert  \pi_{\text{ref}}) = \sum_{i} \pi_\theta(i) \big[\log \pi_\theta(i) - \log \pi_{\text{ref}}(i)\big]$$
 
 - На каждом батче один шаг градиента, поэтому отношение вероятностей PPO равно 1 и клиппинг не нужен.
 - $B = 64$ контекста, lr $2\cdot10^{-5}$, 600 шагов.
@@ -156,19 +156,19 @@ $\beta$ - сила поводка, который держит политику 
 | `ratio` | $\hat r_0(x, c)$ | доля дослушивания по proxy |
 | `seconds` | $\hat r_0(x, c)\cdot \text{dur}(c) / 240$ | дослушанные секунды |
 | `norm` | $\hat r_0(x, c) - \hat b(x, \text{dur}(c))$ | дослушивание сверх ожидаемого для такой длины трека |
-| `pess` | $\overline{\hat r}(x, c) - k\cdot \operatorname{sd}\,\hat r(x, c)$ | среднее ансамбля минус неуверенность |
+| `pess` | $\overline{\hat r}(x, c) - k\cdot \mathrm{sd} \hat r(x, c)$ | среднее ансамбля минус неуверенность |
 | `continue` | $\hat p_{\text{cont}}(x, c)$ | продолжит ли сессию (прокси удержания) |
 | `hit` | $\max_{t \in \text{future}} \mathbb{1}[c = i_t]\cdot \text{ratio}_t/100$ | попал ли трек в реальное будущее сессии, без RM |
 
 ### Защиты от взлома
 
-- **CE-якорь** (как ptx в InstructGPT): $\mathcal{L} = \mathcal{L}_{\text{GRPO}} + c\,\mathcal{L}_{\text{SFT}}$ на реальных окнах, $c \in \{0.3, 1\}$.
-- **Hit-награда** как добавка к RM: $r = r^{\text{RM}} + w\, r^{\text{hit}}$. Её нельзя взломать: она проверяется по логам, как верификатор ответа в GRPO для математики. В разделе 8.8 она используется отдельно, без RM.
+- **CE-якорь** (как ptx в InstructGPT): $\mathcal{L} = \mathcal{L}_{\text{GRPO}} + c \mathcal{L}_{\text{SFT}}$ на реальных окнах, $c \in \lbrace 0.3, 1 \rbrace$.
+- **Hit-награда** как добавка к RM: $r = r^{\text{RM}} + w  r^{\text{hit}}$. Её нельзя взломать: она проверяется по логам, как верификатор ответа в GRPO для математики. В разделе 8.8 она используется отдельно, без RM.
 - **Пессимизм ансамбля** (`pess`) и **нормировка по длительности** (`norm`).
 
 ### Контроли без RL
 
-- **Best-of-N:** из SFT сэмплируется $N$ слейтов, берётся лучший по proxy. KL такой политики ограничен: $\operatorname{KL} \le \log N - \frac{N-1}{N}$. Это эталон «сколько награды можно получить при данном KL без обучения».
+- **Best-of-N:** из SFT сэмплируется $N$ слейтов, берётся лучший по proxy. KL такой политики ограничен: $\mathrm{KL} \le \log N - \frac{N-1}{N}$. Это эталон «сколько награды можно получить при данном KL без обучения».
 - **Reward-weighted SFT (RW-SFT):** SFT, где лосс позиции умножается на $\exp(\text{ratio}/\lambda)$. Ответ на вопрос «а нужен ли RL вообще».
 - **SFT ещё 1-2 эпохи:** отделяет эффект RL от эффекта дополнительного обучения.
 

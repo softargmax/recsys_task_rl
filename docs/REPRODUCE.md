@@ -32,7 +32,21 @@ for z in policies reward_models_v1 reward_models_v2 catboost_judge top10_exports
 | `catboost_judge.zip` | 25 МБ | `outputs/catboost/` | CatBoost из первого задания и его предсказания на test для сверки |
 | `top10_exports.zip` | 80 МБ | `outputs/results/` | top-10 каждой модели на всех запросах test и val |
 
-Каждый `.pt` хранит архитектуру вместе с весами и загружается `rl.model.load(path)`. Метрики всех запусков в JSON и логи Kaggle уже лежат в `outputs/results/`.
+Каждый `.pt` хранит архитектуру вместе с весами и загружается `rl.model.load(path)`.
+
+Метрики всех запусков (JSON) и логи Kaggle лежат в репозитории, в `outputs/results/`. Откуда какая таблица [отчёта](REPORT.md):
+
+| Таблица отчёта | Файлы в `outputs/results/` |
+|---|---|
+| качество RM v1 / v2 (раздел 4) | `final_v1/runs/rm/*_val.json`, `rm2_v1/runs/rm2/*_val.json` |
+| 8.1-8.3, val, графики 1-2 | `final_v1/runs/eval/final_{0,1}.json`, CatBoost - `final_v1/runs/eval/judge_val.json` |
+| 8.4, RM v2 | `rm2eval_v1/dl/runs/eval/rm2_{0,1}.json`, `rm2eval_v1/judge_val.json` |
+| 8.5, test | `test_v1/eval/test_rm.json`, `test_v1/eval/test_rm2.json`, `test_v1/judge_test.json` |
+| 8.6, пять шагов, график 3 | `test_v1/eval/multistep_rm.json`, `test_v1/eval/multistep_rm2.json` |
+| 8.7, все запросы, GRPO с RM | `full_logs/{test,val}.json` |
+| 8.8, hit-награда и RW-SFT | `night_v1/night_{test,val}.json`, `night_v1/judge_test.json` |
+| 8.9, контроли | `control_v1/control_{test,val}.json` |
+| значимость с поправкой Холма, график 4 | `significance.json` (строится `report/significance.py`) |
 
 ## 3. Пересчитать цифры отчёта
 

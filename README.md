@@ -70,7 +70,7 @@ $$\mathcal{L} = -\frac{1}{BG}\sum_{b,g} \frac{R_{bg} - \bar R_b}{\mathrm{std}_b 
 | `continue` | $P(\text{сессия продолжится})$ - прокси удержания |
 | **`hit`** | $\max_{t \in \text{будущее сессии}} \mathbb{1}[c = i_t]\cdot \text{ratio}_t/100$ - **из логов, без RM** |
 
-Защиты: CE-якорь на реальных окнах (как ptx в InstructGPT), смешивание с hit-наградой, пессимизм, нормировка. Контроли без RL: **Best-of-N** из SFT (KL ≤ log N − (N−1)/N) и **reward-weighted SFT** (лосс × $\exp(\text{ratio}/\lambda)$).
+Защиты: CE-якорь на реальных окнах (как ptx в InstructGPT), смешивание с hit-наградой, пессимизм, нормировка. Контроли без RL: **Best-of-N** из SFT, у которого $\mathrm{KL} \le \log N - \frac{N-1}{N}$, и **reward-weighted SFT**, где лосс умножается на $\exp(\text{ratio}/\lambda)$.
 
 ## 3. Как оценивается
 

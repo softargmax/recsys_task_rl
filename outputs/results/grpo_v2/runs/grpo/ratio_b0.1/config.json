@@ -1,0 +1,12 @@
+{
+  "kind": "ratio",
+  "beta": 0.1,
+  "steps": 600,
+  "batch_size": 64,
+  "group": 8,
+  "slate": 5,
+  "lr": 2e-05,
+  "k_pess": 1.0,
+  "chunk": 8,
+  "seed": 0
+}

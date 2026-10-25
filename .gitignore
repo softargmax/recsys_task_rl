@@ -1,6 +1,6 @@
-data/
-runs/
-papers/
+/data/
+/runs/
+/papers/
 outputs/*
 !outputs/results/
 outputs/results/**/*.npz

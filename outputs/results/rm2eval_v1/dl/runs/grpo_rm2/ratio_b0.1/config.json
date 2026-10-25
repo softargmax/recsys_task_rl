@@ -1,0 +1,16 @@
+{
+  "reward": "ratio",
+  "beta": 0.1,
+  "steps": 600,
+  "batch_size": 64,
+  "group": 8,
+  "slate": 5,
+  "lr": 2e-05,
+  "k_pess": 1.0,
+  "hit_weight": 0.0,
+  "ce_weight": 0.0,
+  "ce_batch": 32,
+  "chunk": 8,
+  "save_every": 200,
+  "seed": 0
+}

@@ -1,0 +1,19 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --max-queries 60000 --policies /kaggle/working/runs/night/rwsft_l0.25/policy.pt /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt /kaggle/working/runs/night/rwsft_l1.0/policy.pt /kaggle/working/runs/night/hit_b0.03/step_00600.pt /kaggle/working/runs/night/hit_b0.1/step_00600.pt /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt /kaggle/working/runs/fix/rwsft_l0.5/policy.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt --split test --out ../runs/eval/night_test.json --export-topk ../runs/eval/night_test_top10.npz
+evaluated /kaggle/working/runs/night/rwsft_l0.25/policy.pt
+evaluated /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt
+evaluated /kaggle/working/runs/night/rwsft_l1.0/policy.pt
+evaluated /kaggle/working/runs/night/hit_b0.03/step_00600.pt
+evaluated /kaggle/working/runs/night/hit_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt
+evaluated /kaggle/working/runs/fix/rwsft_l0.5/policy.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt
+sft {'next_ndcg@10': 0.0225, 'lp_future_ndcg@10': 0.0325, 'duration_s': 189.6626, 'skip_gauc': 0.5312}
+rwsft_l0.25/policy {'next_ndcg@10': 0.0222, 'lp_future_ndcg@10': 0.0335, 'duration_s': 186.2931, 'skip_gauc': 0.5366}
+rwsft_l0.5_e2/policy {'next_ndcg@10': 0.0227, 'lp_future_ndcg@10': 0.0334, 'duration_s': 187.5132, 'skip_gauc': 0.5361}
+rwsft_l1.0/policy {'next_ndcg@10': 0.0225, 'lp_future_ndcg@10': 0.033, 'duration_s': 188.2139, 'skip_gauc': 0.5338}
+hit_b0.03/step_00600 {'next_ndcg@10': 0.0235, 'lp_future_ndcg@10': 0.0335, 'duration_s': 187.1852, 'skip_gauc': 0.5287}
+hit_b0.1/step_00600 {'next_ndcg@10': 0.0232, 'lp_future_ndcg@10': 0.0333, 'duration_s': 188.6537, 'skip_gauc': 0.53}
+ratio_b0.3_s1/step_00600 {'next_ndcg@10': 0.021, 'lp_future_ndcg@10': 0.0325, 'duration_s': 165.9731, 'skip_gauc': 0.5375}
+rwsft_l0.5/policy {'next_ndcg@10': 0.0223, 'lp_future_ndcg@10': 0.0333, 'duration_s': 187.2076, 'skip_gauc': 0.5355}
+ratio_b0.3/step_00600 {'next_ndcg@10': 0.0211, 'lp_future_ndcg@10': 0.0325, 'duration_s': 166.097, 'skip_gauc': 0.5377}
+exit 0

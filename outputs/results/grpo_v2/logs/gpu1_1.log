@@ -1,0 +1,33 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/grpo/continue_b0.1/step_00400.pt /kaggle/working/runs/grpo/norm_b0.1/step_00200.pt /kaggle/working/runs/grpo/norm_b0.1/step_00600.pt /kaggle/working/runs/grpo/pess_b0.1/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00400.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00200.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00600.pt --out ../runs/eval/val_1.json
+evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00400.pt
+evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00600.pt
+sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+continue_b0.1/step_00400 {'next_ndcg@10': 0.0114, 'future_ndcg@10': 0.017, 'top10_proxy': 0.6973, 'duration_s': 121.3241, 'slate_proxy': 2.8185, 'slate_judge': 2.8136, 'slate_kl': 9.5063}
+norm_b0.1/step_00200 {'next_ndcg@10': 0.0194, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.6947, 'duration_s': 187.1401, 'slate_proxy': 2.803, 'slate_judge': 2.7986, 'slate_kl': 2.172}
+norm_b0.1/step_00600 {'next_ndcg@10': 0.0188, 'future_ndcg@10': 0.0278, 'top10_proxy': 0.6959, 'duration_s': 188.7405, 'slate_proxy': 2.8077, 'slate_judge': 2.8028, 'slate_kl': 2.5675}
+pess_b0.1/step_00400 {'next_ndcg@10': 0.0177, 'future_ndcg@10': 0.0268, 'top10_proxy': 0.7031, 'duration_s': 146.9038, 'slate_proxy': 2.8324, 'slate_judge': 2.8282, 'slate_kl': 4.2832}
+ratio_b0.0/step_00200 {'next_ndcg@10': 0.0029, 'future_ndcg@10': 0.0045, 'top10_proxy': 0.7042, 'duration_s': 104.828, 'slate_proxy': 2.8756, 'slate_judge': 2.8585, 'slate_kl': 37.0481}
+ratio_b0.0/step_00600 {'next_ndcg@10': 0.0024, 'future_ndcg@10': 0.0033, 'top10_proxy': 0.705, 'duration_s': 104.1626, 'slate_proxy': 2.8867, 'slate_judge': 2.8665, 'slate_kl': 40.0317}
+ratio_b0.01/step_00400 {'next_ndcg@10': 0.0024, 'future_ndcg@10': 0.0035, 'top10_proxy': 0.705, 'duration_s': 104.8509, 'slate_proxy': 2.8853, 'slate_judge': 2.8656, 'slate_kl': 38.7138}
+ratio_b0.03/step_00200 {'next_ndcg@10': 0.005, 'future_ndcg@10': 0.0083, 'top10_proxy': 0.7046, 'duration_s': 111.653, 'slate_proxy': 2.8638, 'slate_judge': 2.8507, 'slate_kl': 24.615}
+ratio_b0.03/step_00600 {'next_ndcg@10': 0.0031, 'future_ndcg@10': 0.0046, 'top10_proxy': 0.7059, 'duration_s': 105.3242, 'slate_proxy': 2.8838, 'slate_judge': 2.8647, 'slate_kl': 36.1192}
+ratio_b0.1/step_00400 {'next_ndcg@10': 0.0167, 'future_ndcg@10': 0.0248, 'top10_proxy': 0.704, 'duration_s': 142.8006, 'slate_proxy': 2.8353, 'slate_judge': 2.8297, 'slate_kl': 5.0079}
+ratio_b0.3/step_00200 {'next_ndcg@10': 0.0232, 'future_ndcg@10': 0.0332, 'top10_proxy': 0.6951, 'duration_s': 168.352, 'slate_proxy': 2.8012, 'slate_judge': 2.7984, 'slate_kl': 0.745}
+ratio_b0.3/step_00600 {'next_ndcg@10': 0.0232, 'future_ndcg@10': 0.0331, 'top10_proxy': 0.6962, 'duration_s': 166.8413, 'slate_proxy': 2.8036, 'slate_judge': 2.8004, 'slate_kl': 0.7842}
+ratio_b1.0/step_00400 {'next_ndcg@10': 0.0236, 'future_ndcg@10': 0.0341, 'top10_proxy': 0.6903, 'duration_s': 179.5993, 'slate_proxy': 2.7826, 'slate_judge': 2.7807, 'slate_kl': 0.0929}
+seconds_b0.1/step_00200 {'next_ndcg@10': 0.0062, 'future_ndcg@10': 0.0103, 'top10_proxy': 0.635, 'duration_s': 359.7093, 'slate_proxy': 2.6407, 'slate_judge': 2.6457, 'slate_kl': 12.4705}
+seconds_b0.1/step_00600 {'next_ndcg@10': 0.0045, 'future_ndcg@10': 0.0081, 'top10_proxy': 0.6291, 'duration_s': 389.8039, 'slate_proxy': 2.6244, 'slate_judge': 2.6285, 'slate_kl': 14.8095}
+exit 0

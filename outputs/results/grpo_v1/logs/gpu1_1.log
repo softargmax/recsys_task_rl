@@ -1,0 +1,5 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies  --out ../runs/eval/val_1.json
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+exit 0

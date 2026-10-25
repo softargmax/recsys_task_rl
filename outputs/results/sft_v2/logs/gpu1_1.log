@@ -1,0 +1,94 @@
+$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 1
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  self.sums[k] = self.sums.get(k, 0.0) + float(v)
+step 200: ratio_bce 0.4602, cont_bce 0.2206, 94s
+step 400: ratio_bce 0.4221, cont_bce 0.1972, 188s
+step 600: ratio_bce 0.4200, cont_bce 0.1956, 282s
+step 800: ratio_bce 0.4194, cont_bce 0.1958, 375s
+/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.
+  return float(roc_auc_score(y, s)) if 0 < y.mean() < 1 else float("nan")
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+  "n": 140312,
+  "auc": 0.908427650057849,
+  "gauc_user": 0.7192212636696416,
+  "gauc_session": 0.5953806420141337,
+  "mae_ratio": 0.18561430029298073,
+  "auc_continue": 0.6591606633464596,
+  "auc_by_duration_quintile": [
+    0.909666446502497,
+    NaN,
+    0.908861521455357,
+    0.9067568033513941,
+    0.906648959718676
+  ]
+}
+exit 0
+$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 3
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  self.sums[k] = self.sums.get(k, 0.0) + float(v)
+step 200: ratio_bce 0.4534, cont_bce 0.2223, 94s
+step 400: ratio_bce 0.4105, cont_bce 0.1930, 187s
+step 600: ratio_bce 0.4099, cont_bce 0.1945, 281s
+step 800: ratio_bce 0.4077, cont_bce 0.1919, 375s
+/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.
+  return float(roc_auc_score(y, s)) if 0 < y.mean() < 1 else float("nan")
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+  "n": 140312,
+  "auc": 0.9084433848615716,
+  "gauc_user": 0.7213461550647409,
+  "gauc_session": 0.5971268279179182,
+  "mae_ratio": 0.18568388146029458,
+  "auc_continue": 0.6607459625783115,
+  "auc_by_duration_quintile": [
+    0.9096345664148032,
+    NaN,
+    0.908853452468275,
+    0.9068379732110023,
+    0.9066699053054261
+  ],
+  "auc_residual": 0.540811518261344,
+  "gauc_session_residual": 0.536325478391873
+}
+exit 0
+$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 4
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  self.sums[k] = self.sums.get(k, 0.0) + float(v)
+step 200: ratio_bce 0.4588, cont_bce 0.2208, 94s
+step 400: ratio_bce 0.4200, cont_bce 0.1965, 187s
+step 600: ratio_bce 0.4136, cont_bce 0.1943, 281s
+step 800: ratio_bce 0.4153, cont_bce 0.1948, 374s
+/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.
+  return float(roc_auc_score(y, s)) if 0 < y.mean() < 1 else float("nan")
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+  "n": 140312,
+  "auc": 0.9083292239624685,
+  "gauc_user": 0.7221197644301367,
+  "gauc_session": 0.5988002900386576,
+  "mae_ratio": 0.18613363337778185,
+  "auc_continue": 0.6606467761759315,
+  "auc_by_duration_quintile": [
+    0.9096697200744703,
+    NaN,
+    0.9087112784538837,
+    0.9066099042382596,
+    0.9066078425592462
+  ],
+  "auc_residual": 0.49310145228125435,
+  "gauc_session_residual": 0.5288597740392391
+}
+exit 0

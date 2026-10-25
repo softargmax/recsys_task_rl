@@ -1,0 +1,13 @@
+data/
+runs/
+papers/
+outputs/*
+!outputs/results/
+outputs/results/**/*.npz
+outputs/results/**/*download.log
+outputs/results/full_logs/*.log
+kaggle/*/
+__pycache__/
+*.pyc
+*.zip
+*.pdf

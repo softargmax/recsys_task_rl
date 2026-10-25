@@ -1,0 +1,11 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --baselines --best-of 1 4 16 64 --policies  --out ../runs/eval/val_0.json
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+most_pop {'next_ndcg@10': 0.0031, 'future_ndcg@10': 0.0053, 'duration_s': 168.0}
+recent {'next_ndcg@10': 0.0261, 'future_ndcg@10': 0.032, 'duration_s': 196.5985}
+sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+best_of_1 {'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+best_of_4 {'slate_proxy': 2.823, 'slate_judge': 2.8178, 'slate_kl_bound': 0.6363}
+best_of_16 {'slate_proxy': 2.8625, 'slate_judge': 2.8548, 'slate_kl_bound': 1.8351}
+best_of_64 {'slate_proxy': 2.8945, 'slate_judge': 2.8849, 'slate_kl_bound': 3.1745}
+exit 0

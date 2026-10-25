@@ -1,0 +1,85 @@
+[{"stream_name":"stderr","time":7.755014266,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.755057151,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.75508387,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.755088657,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.396241548,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.396270679,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.396275413,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.396279288,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.536739767,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/810.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m194.6/810.4 kB\u001b[0m \u001b[31m5.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m809.0/810.4 kB\u001b[0m \u001b[31m14.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m810.4/810.4 kB\u001b[0m \u001b[31m11.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.946467659,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/45.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.6/45.8 MB\u001b[0m \u001b[31m180.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.1/45.8 MB\u001b[0m \u001b[31m216.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.3/45.8 MB\u001b[0m \u001b[31m240.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━\u001b[0m \u001b[32m29.4/45.8 MB\u001b[0m \u001b[31m233.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━\u001b[0m \u001b[32m37.2/45.8 MB\u001b[0m \u001b[31m228.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m268.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m268.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m268.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m268.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m268.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m47.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":17.860140883,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":17.860166975,"data":"cudf-polars-cu12 26.2.1 requires polars\u003c1.36,\u003e=1.30, but you have polars 1.38.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":18.10402001,"data":"\u001b[0mGPU 0: Tesla T4 (UUID: GPU-bcafc9b5-5cb4-e072-1c67-b6e5ed44ac7e)\n"}
+,{"stream_name":"stdout","time":18.104045556,"data":"GPU 1: Tesla T4 (UUID: GPU-b9bfde6f-a954-ae2a-fe2a-3d91eb3be04f)\n"}
+,{"stream_name":"stdout","time":18.104065721,"data":"\n"}
+,{"stream_name":"stdout","time":18.246093061,"data":"Writing /kaggle/working/code/rl/config.py\n"}
+,{"stream_name":"stdout","time":18.261071469,"data":"Writing /kaggle/working/code/rl/data.py\n"}
+,{"stream_name":"stdout","time":18.279028188,"data":"Writing /kaggle/working/code/rl/evaluate.py\n"}
+,{"stream_name":"stdout","time":18.29235064,"data":"Writing /kaggle/working/code/rl/grpo.py\n"}
+,{"stream_name":"stdout","time":18.305874733,"data":"Writing /kaggle/working/code/rl/metrics.py\n"}
+,{"stream_name":"stdout","time":18.320480633,"data":"Writing /kaggle/working/code/rl/model.py\n"}
+,{"stream_name":"stdout","time":18.333889154,"data":"Writing /kaggle/working/code/rl/optim.py\n"}
+,{"stream_name":"stdout","time":18.350216451,"data":"Writing /kaggle/working/code/rl/prepare.py\n"}
+,{"stream_name":"stdout","time":18.366077185,"data":"Writing /kaggle/working/code/rl/reward.py\n"}
+,{"stream_name":"stdout","time":18.379393752,"data":"Writing /kaggle/working/code/rl/rollout.py\n"}
+,{"stream_name":"stdout","time":18.393637522,"data":"Writing /kaggle/working/code/rl/sft.py\n"}
+,{"stream_name":"stdout","time":5772.003724896,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":5772.00378144,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --beta 0.1 --ce-weight 0.3 --out-dir ../runs/fix/ce0.3\n"}
+,{"stream_name":"stdout","time":5772.003786394,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":5772.003789599,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --beta 0.1 --hit-weight 1 --out-dir ../runs/fix/hit1\n"}
+,{"stream_name":"stdout","time":5772.003800054,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":5772.003802563,"data":"$ python -m rl.sft --data ../data --init ../runs/sft_base/policy.pt --rw-lambda 0.5 --epochs 1 --lr 1e-4 --out-dir ../runs/fix/rwsft_l0.5\n"}
+,{"stream_name":"stdout","time":5772.003805102,"data":"/kaggle/working/code/rl/optim.py:60: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":5772.003807636,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":5772.003810085,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":5772.003812759,"data":"{\"epoch\": 1, \"steps\": 2644, \"next_recall@10\": 0.0465, \"next_ndcg@10\": 0.02326843524651887, \"next_recall@20\": 0.0875, \"next_ndcg@20\": 0.03363159201625855, \"future_recall@10\": 0.041146190476190475, \"future_ndcg@10\": 0.0338097677960576, \"future_recall@20\": 0.07527301587301588, \"future_ndcg@20\": 0.04836469340693648}\n"}
+,{"stream_name":"stdout","time":5772.003817044,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":5772.003819388,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":5772.003821626,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --beta 0.1 --ce-weight 1 --out-dir ../runs/fix/ce1\n"}
+,{"stream_name":"stdout","time":5772.003824117,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":5772.0038264,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --beta 0.1 --ce-weight 1 --hit-weight 1 --out-dir ../runs/fix/ce1_hit1\n"}
+,{"stream_name":"stdout","time":5772.003828987,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":7337.57950486,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":7337.57954116,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/fix/ce0.3/step_00200.pt /kaggle/working/runs/fix/ce0.3/step_00600.pt /kaggle/working/runs/fix/ce1/step_00400.pt /kaggle/working/runs/fix/ce1_hit1/step_00200.pt /kaggle/working/runs/fix/ce1_hit1/step_00600.pt /kaggle/working/runs/fix/hit1/step_00400.pt /kaggle/working/runs/fix/rwsft_l0.5/policy.pt --out ../runs/eval/fix_0.json\n"}
+,{"stream_name":"stdout","time":7337.579550749,"data":"evaluated /kaggle/working/runs/fix/ce0.3/step_00200.pt\n"}
+,{"stream_name":"stdout","time":7337.579555384,"data":"evaluated /kaggle/working/runs/fix/ce0.3/step_00600.pt\n"}
+,{"stream_name":"stdout","time":7337.57955986,"data":"evaluated /kaggle/working/runs/fix/ce1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":7337.579564215,"data":"evaluated /kaggle/working/runs/fix/ce1_hit1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":7337.579568565,"data":"evaluated /kaggle/working/runs/fix/ce1_hit1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":7337.579572883,"data":"evaluated /kaggle/working/runs/fix/hit1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":7337.5795771,"data":"evaluated /kaggle/working/runs/fix/rwsft_l0.5/policy.pt\n"}
+,{"stream_name":"stdout","time":7337.579581433,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":7337.57958796,"data":"ce0.3/step_00200 {'next_ndcg@10': 0.0185, 'future_ndcg@10': 0.0275, 'top10_proxy': 0.7011, 'duration_s': 149.7253, 'slate_proxy': 2.824, 'slate_judge': 2.8194, 'slate_kl': 3.4894}\n"}
+,{"stream_name":"stdout","time":7337.579595547,"data":"ce0.3/step_00600 {'next_ndcg@10': 0.0178, 'future_ndcg@10': 0.0261, 'top10_proxy': 0.7033, 'duration_s': 144.9984, 'slate_proxy': 2.8312, 'slate_judge': 2.8262, 'slate_kl': 4.0958}\n"}
+,{"stream_name":"stdout","time":7337.579605421,"data":"ce1/step_00400 {'next_ndcg@10': 0.0186, 'future_ndcg@10': 0.0272, 'top10_proxy': 0.7021, 'duration_s': 148.3213, 'slate_proxy': 2.8254, 'slate_judge': 2.8211, 'slate_kl': 3.2423}\n"}
+,{"stream_name":"stdout","time":7337.579608505,"data":"ce1_hit1/step_00200 {'next_ndcg@10': 0.0216, 'future_ndcg@10': 0.031, 'top10_proxy': 0.6979, 'duration_s': 158.7082, 'slate_proxy': 2.8125, 'slate_judge': 2.8093, 'slate_kl': 1.962}\n"}
+,{"stream_name":"stdout","time":7337.579625669,"data":"ce1_hit1/step_00600 {'next_ndcg@10': 0.0206, 'future_ndcg@10': 0.0298, 'top10_proxy': 0.7001, 'duration_s': 154.6301, 'slate_proxy': 2.8185, 'slate_judge': 2.8148, 'slate_kl': 2.3353}\n"}
+,{"stream_name":"stdout","time":7337.579632598,"data":"hit1/step_00400 {'next_ndcg@10': 0.0194, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.7014, 'duration_s': 150.3048, 'slate_proxy': 2.8279, 'slate_judge': 2.8234, 'slate_kl': 3.5586}\n"}
+,{"stream_name":"stdout","time":7337.579636925,"data":"rwsft_l0.5/policy {'next_ndcg@10': 0.0233, 'future_ndcg@10': 0.0338, 'top10_proxy': 0.6878, 'duration_s': 187.1382, 'slate_proxy': 2.7774, 'slate_judge': 2.7759, 'slate_kl': 0.0718}\n"}
+,{"stream_name":"stdout","time":7337.57964153,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":7337.579644966,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":7337.579648394,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/fix/ce0.3/step_00400.pt /kaggle/working/runs/fix/ce1/step_00200.pt /kaggle/working/runs/fix/ce1/step_00600.pt /kaggle/working/runs/fix/ce1_hit1/step_00400.pt /kaggle/working/runs/fix/hit1/step_00200.pt /kaggle/working/runs/fix/hit1/step_00600.pt --out ../runs/eval/fix_1.json\n"}
+,{"stream_name":"stdout","time":7337.579653093,"data":"evaluated /kaggle/working/runs/fix/ce0.3/step_00400.pt\n"}
+,{"stream_name":"stdout","time":7337.57965702,"data":"evaluated /kaggle/working/runs/fix/ce1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":7337.57966053,"data":"evaluated /kaggle/working/runs/fix/ce1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":7337.579664007,"data":"evaluated /kaggle/working/runs/fix/ce1_hit1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":7337.579667443,"data":"evaluated /kaggle/working/runs/fix/hit1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":7337.579670799,"data":"evaluated /kaggle/working/runs/fix/hit1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":7337.579674293,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":7337.579678045,"data":"ce0.3/step_00400 {'next_ndcg@10': 0.0182, 'future_ndcg@10': 0.0264, 'top10_proxy': 0.7031, 'duration_s': 145.1813, 'slate_proxy': 2.8306, 'slate_judge': 2.8257, 'slate_kl': 4.1}\n"}
+,{"stream_name":"stdout","time":7337.579681972,"data":"ce1/step_00200 {'next_ndcg@10': 0.0194, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.7, 'duration_s': 152.9394, 'slate_proxy': 2.8183, 'slate_judge': 2.8145, 'slate_kl': 2.731}\n"}
+,{"stream_name":"stdout","time":7337.579685838,"data":"ce1/step_00600 {'next_ndcg@10': 0.0184, 'future_ndcg@10': 0.0271, 'top10_proxy': 0.7024, 'duration_s': 147.9933, 'slate_proxy': 2.8263, 'slate_judge': 2.8219, 'slate_kl': 3.2604}\n"}
+,{"stream_name":"stdout","time":7337.579689614,"data":"ce1_hit1/step_00400 {'next_ndcg@10': 0.0209, 'future_ndcg@10': 0.0301, 'top10_proxy': 0.6997, 'duration_s': 155.3569, 'slate_proxy': 2.8181, 'slate_judge': 2.8145, 'slate_kl': 2.2982}\n"}
+,{"stream_name":"stdout","time":7337.57969398,"data":"hit1/step_00200 {'next_ndcg@10': 0.02, 'future_ndcg@10': 0.0296, 'top10_proxy': 0.6995, 'duration_s': 154.2965, 'slate_proxy': 2.8213, 'slate_judge': 2.8175, 'slate_kl': 3.0013}\n"}
+,{"stream_name":"stdout","time":7337.579706449,"data":"hit1/step_00600 {'next_ndcg@10': 0.0193, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.7017, 'duration_s': 149.7849, 'slate_proxy': 2.8289, 'slate_judge': 2.8245, 'slate_kl': 3.6179}\n"}
+,{"stream_name":"stdout","time":7337.579722315,"data":"exit 0\n"}
+,{"stream_name":"stderr","time":7340.14887911,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7340.148919241,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7340.333369259,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7340.33339704,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7341.196953856,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7341.286141372,"data":"[NbConvertApp] Writing 91600 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7343.883460784,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7344.71578521,"data":"[NbConvertApp] Writing 678980 bytes to __results__.html\n"}
+]

@@ -1,0 +1,131 @@
+[{"stream_name":"stderr","time":7.318195086,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.318235183,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.318242427,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.318247743,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.917927377,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.917957345,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.917962015,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.917964541,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.707907485,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/810.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m810.4/810.4 kB\u001b[0m \u001b[31m26.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.114925523,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/45.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.7/45.8 MB\u001b[0m \u001b[31m200.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.6/45.8 MB\u001b[0m \u001b[31m197.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.2/45.8 MB\u001b[0m \u001b[31m219.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━\u001b[0m \u001b[32m28.9/45.8 MB\u001b[0m \u001b[31m219.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━\u001b[0m \u001b[32m36.5/45.8 MB\u001b[0m \u001b[31m221.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━\u001b[0m \u001b[32m43.9/45.8 MB\u001b[0m \u001b[31m213.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m209.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m209.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m209.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m209.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m209.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m45.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.817426165,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":16.817497599,"data":"cudf-polars-cu12 26.2.1 requires polars\u003c1.36,\u003e=1.30, but you have polars 1.38.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":17.025435422,"data":"\u001b[0mGPU 0: Tesla T4 (UUID: GPU-4850a9c7-542f-544f-1561-f98739d061c1)\n"}
+,{"stream_name":"stdout","time":17.025460847,"data":"GPU 1: Tesla T4 (UUID: GPU-b076ac68-e2cb-6c90-a24a-237253527146)\n"}
+,{"stream_name":"stdout","time":17.025465172,"data":"\n"}
+,{"stream_name":"stdout","time":17.167079437,"data":"Writing /kaggle/working/code/rl/config.py\n"}
+,{"stream_name":"stdout","time":17.180342982,"data":"Writing /kaggle/working/code/rl/data.py\n"}
+,{"stream_name":"stdout","time":17.199820711,"data":"Writing /kaggle/working/code/rl/evaluate.py\n"}
+,{"stream_name":"stdout","time":17.213570974,"data":"Writing /kaggle/working/code/rl/grpo.py\n"}
+,{"stream_name":"stdout","time":17.225843038,"data":"Writing /kaggle/working/code/rl/metrics.py\n"}
+,{"stream_name":"stdout","time":17.239781122,"data":"Writing /kaggle/working/code/rl/model.py\n"}
+,{"stream_name":"stdout","time":17.25222367,"data":"Writing /kaggle/working/code/rl/optim.py\n"}
+,{"stream_name":"stdout","time":17.267079598,"data":"Writing /kaggle/working/code/rl/prepare.py\n"}
+,{"stream_name":"stdout","time":17.28286233,"data":"Writing /kaggle/working/code/rl/reward.py\n"}
+,{"stream_name":"stdout","time":17.29579712,"data":"Writing /kaggle/working/code/rl/rollout.py\n"}
+,{"stream_name":"stdout","time":17.309323967,"data":"Writing /kaggle/working/code/rl/sft.py\n"}
+,{"stream_name":"stdout","time":11088.661726346,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":11088.661816816,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.0 --out-dir ../runs/grpo/ratio_b0.0\n"}
+,{"stream_name":"stdout","time":11088.661825371,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661831057,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.03 --out-dir ../runs/grpo/ratio_b0.03\n"}
+,{"stream_name":"stdout","time":11088.661837347,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661841826,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.3 --out-dir ../runs/grpo/ratio_b0.3\n"}
+,{"stream_name":"stdout","time":11088.661856759,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661860827,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward seconds --beta 0.1 --out-dir ../runs/grpo/seconds_b0.1\n"}
+,{"stream_name":"stdout","time":11088.661865164,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661869199,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward pess --beta 0.1 --out-dir ../runs/grpo/pess_b0.1\n"}
+,{"stream_name":"stdout","time":11088.661873641,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661876895,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":11088.661880444,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.01 --out-dir ../runs/grpo/ratio_b0.01\n"}
+,{"stream_name":"stdout","time":11088.661884345,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661888141,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.1 --out-dir ../runs/grpo/ratio_b0.1\n"}
+,{"stream_name":"stdout","time":11088.661891911,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661895346,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 1.0 --out-dir ../runs/grpo/ratio_b1.0\n"}
+,{"stream_name":"stdout","time":11088.661899602,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661903657,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward norm --beta 0.1 --out-dir ../runs/grpo/norm_b0.1\n"}
+,{"stream_name":"stdout","time":11088.661907609,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":11088.661911254,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward continue --beta 0.1 --out-dir ../runs/grpo/continue_b0.1\n"}
+,{"stream_name":"stdout","time":11088.661915561,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":14748.318784795,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":14748.318839595,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --baselines --best-of 1 4 16 64 --policies /kaggle/working/runs/grpo/continue_b0.1/step_00200.pt /kaggle/working/runs/grpo/continue_b0.1/step_00600.pt /kaggle/working/runs/grpo/norm_b0.1/step_00400.pt /kaggle/working/runs/grpo/pess_b0.1/step_00200.pt /kaggle/working/runs/grpo/pess_b0.1/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00400.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00200.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00600.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00400.pt --out ../runs/eval/val_0.json\n"}
+,{"stream_name":"stdout","time":14748.318847501,"data":"evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.318850813,"data":"evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.31885374,"data":"evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.318856675,"data":"evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.318881312,"data":"evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.318885617,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.318889649,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.318893085,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.31889644,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.318899761,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.318903017,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.31890631,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.318909599,"data":"evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.318912851,"data":"evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.318916078,"data":"evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.318919466,"data":"most_pop {'next_ndcg@10': 0.0031, 'future_ndcg@10': 0.0053, 'duration_s': 168.0}\n"}
+,{"stream_name":"stdout","time":14748.318924316,"data":"recent {'next_ndcg@10': 0.0261, 'future_ndcg@10': 0.032, 'duration_s': 196.5985}\n"}
+,{"stream_name":"stdout","time":14748.318927816,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":14748.318931361,"data":"best_of_1 {'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":14748.318934788,"data":"best_of_4 {'slate_proxy': 2.823, 'slate_judge': 2.8178, 'slate_kl_bound': 0.6363}\n"}
+,{"stream_name":"stdout","time":14748.318943393,"data":"best_of_16 {'slate_proxy': 2.8625, 'slate_judge': 2.8548, 'slate_kl_bound': 1.8351}\n"}
+,{"stream_name":"stdout","time":14748.3189458,"data":"best_of_64 {'slate_proxy': 2.8945, 'slate_judge': 2.8849, 'slate_kl_bound': 3.1745}\n"}
+,{"stream_name":"stdout","time":14748.318960478,"data":"continue_b0.1/step_00200 {'next_ndcg@10': 0.0123, 'future_ndcg@10': 0.0184, 'top10_proxy': 0.6966, 'duration_s': 124.867, 'slate_proxy': 2.814, 'slate_judge': 2.8099, 'slate_kl': 8.8651}\n"}
+,{"stream_name":"stdout","time":14748.318965173,"data":"continue_b0.1/step_00600 {'next_ndcg@10': 0.0112, 'future_ndcg@10': 0.0168, 'top10_proxy': 0.6973, 'duration_s': 120.6964, 'slate_proxy': 2.8192, 'slate_judge': 2.8145, 'slate_kl': 9.7279}\n"}
+,{"stream_name":"stdout","time":14748.318969011,"data":"norm_b0.1/step_00400 {'next_ndcg@10': 0.0188, 'future_ndcg@10': 0.028, 'top10_proxy': 0.6956, 'duration_s': 188.9109, 'slate_proxy': 2.807, 'slate_judge': 2.802, 'slate_kl': 2.5225}\n"}
+,{"stream_name":"stdout","time":14748.318973426,"data":"pess_b0.1/step_00200 {'next_ndcg@10': 0.0185, 'future_ndcg@10': 0.0274, 'top10_proxy': 0.7011, 'duration_s': 149.6694, 'slate_proxy': 2.8257, 'slate_judge': 2.8222, 'slate_kl': 3.7998}\n"}
+,{"stream_name":"stdout","time":14748.318977538,"data":"pess_b0.1/step_00600 {'next_ndcg@10': 0.0176, 'future_ndcg@10': 0.0266, 'top10_proxy': 0.7033, 'duration_s': 146.4777, 'slate_proxy': 2.8332, 'slate_judge': 2.8292, 'slate_kl': 4.3389}\n"}
+,{"stream_name":"stdout","time":14748.318981303,"data":"ratio_b0.0/step_00400 {'next_ndcg@10': 0.0023, 'future_ndcg@10': 0.0033, 'top10_proxy': 0.7049, 'duration_s': 104.6531, 'slate_proxy': 2.8857, 'slate_judge': 2.8657, 'slate_kl': 39.4431}\n"}
+,{"stream_name":"stdout","time":14748.31898843,"data":"ratio_b0.01/step_00200 {'next_ndcg@10': 0.0032, 'future_ndcg@10': 0.0052, 'top10_proxy': 0.7043, 'duration_s': 105.9407, 'slate_proxy': 2.8734, 'slate_judge': 2.857, 'slate_kl': 35.0371}\n"}
+,{"stream_name":"stdout","time":14748.318997809,"data":"ratio_b0.01/step_00600 {'next_ndcg@10': 0.0024, 'future_ndcg@10': 0.0034, 'top10_proxy': 0.7051, 'duration_s': 104.1358, 'slate_proxy': 2.8864, 'slate_judge': 2.8664, 'slate_kl': 39.4727}\n"}
+,{"stream_name":"stdout","time":14748.319001973,"data":"ratio_b0.03/step_00400 {'next_ndcg@10': 0.0033, 'future_ndcg@10': 0.005, 'top10_proxy': 0.7058, 'duration_s': 106.004, 'slate_proxy': 2.882, 'slate_judge': 2.8634, 'slate_kl': 35.0938}\n"}
+,{"stream_name":"stdout","time":14748.319005644,"data":"ratio_b0.1/step_00200 {'next_ndcg@10': 0.0179, 'future_ndcg@10': 0.026, 'top10_proxy': 0.7018, 'duration_s': 146.4725, 'slate_proxy': 2.8273, 'slate_judge': 2.8222, 'slate_kl': 4.3672}\n"}
+,{"stream_name":"stdout","time":14748.319009258,"data":"ratio_b0.1/step_00600 {'next_ndcg@10': 0.0165, 'future_ndcg@10': 0.0246, 'top10_proxy': 0.7043, 'duration_s': 142.2406, 'slate_proxy': 2.8365, 'slate_judge': 2.8309, 'slate_kl': 5.1002}\n"}
+,{"stream_name":"stdout","time":14748.319012909,"data":"ratio_b0.3/step_00400 {'next_ndcg@10': 0.0229, 'future_ndcg@10': 0.033, 'top10_proxy': 0.696, 'duration_s': 166.9543, 'slate_proxy': 2.8028, 'slate_judge': 2.7997, 'slate_kl': 0.7802}\n"}
+,{"stream_name":"stdout","time":14748.319016575,"data":"ratio_b1.0/step_00200 {'next_ndcg@10': 0.0236, 'future_ndcg@10': 0.034, 'top10_proxy': 0.6899, 'duration_s': 180.1779, 'slate_proxy': 2.7824, 'slate_judge': 2.7804, 'slate_kl': 0.0972}\n"}
+,{"stream_name":"stdout","time":14748.319020243,"data":"ratio_b1.0/step_00600 {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.034, 'top10_proxy': 0.6903, 'duration_s': 179.2809, 'slate_proxy': 2.7836, 'slate_judge': 2.7816, 'slate_kl': 0.0926}\n"}
+,{"stream_name":"stdout","time":14748.319023913,"data":"seconds_b0.1/step_00400 {'next_ndcg@10': 0.0046, 'future_ndcg@10': 0.0083, 'top10_proxy': 0.6299, 'duration_s': 386.1291, 'slate_proxy': 2.6283, 'slate_judge': 2.6324, 'slate_kl': 14.6315}\n"}
+,{"stream_name":"stdout","time":14748.319028211,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":14748.319031985,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":14748.31903703,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/grpo/continue_b0.1/step_00400.pt /kaggle/working/runs/grpo/norm_b0.1/step_00200.pt /kaggle/working/runs/grpo/norm_b0.1/step_00600.pt /kaggle/working/runs/grpo/pess_b0.1/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00400.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00200.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00600.pt --out ../runs/eval/val_1.json\n"}
+,{"stream_name":"stdout","time":14748.31904403,"data":"evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.319047608,"data":"evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.319051863,"data":"evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.319055133,"data":"evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.319058233,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.319065426,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.319068985,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.319072979,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.31907694,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.31908094,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.319084453,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.319087651,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.319091055,"data":"evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00400.pt\n"}
+,{"stream_name":"stdout","time":14748.319094569,"data":"evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00200.pt\n"}
+,{"stream_name":"stdout","time":14748.31909801,"data":"evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":14748.319101213,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":14748.319104461,"data":"continue_b0.1/step_00400 {'next_ndcg@10': 0.0114, 'future_ndcg@10': 0.017, 'top10_proxy': 0.6973, 'duration_s': 121.3241, 'slate_proxy': 2.8185, 'slate_judge': 2.8136, 'slate_kl': 9.5063}\n"}
+,{"stream_name":"stdout","time":14748.319108331,"data":"norm_b0.1/step_00200 {'next_ndcg@10': 0.0194, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.6947, 'duration_s': 187.1401, 'slate_proxy': 2.803, 'slate_judge': 2.7986, 'slate_kl': 2.172}\n"}
+,{"stream_name":"stdout","time":14748.319111709,"data":"norm_b0.1/step_00600 {'next_ndcg@10': 0.0188, 'future_ndcg@10': 0.0278, 'top10_proxy': 0.6959, 'duration_s': 188.7405, 'slate_proxy': 2.8077, 'slate_judge': 2.8028, 'slate_kl': 2.5675}\n"}
+,{"stream_name":"stdout","time":14748.319115409,"data":"pess_b0.1/step_00400 {'next_ndcg@10': 0.0177, 'future_ndcg@10': 0.0268, 'top10_proxy': 0.7031, 'duration_s': 146.9038, 'slate_proxy': 2.8324, 'slate_judge': 2.8282, 'slate_kl': 4.2832}\n"}
+,{"stream_name":"stdout","time":14748.319119372,"data":"ratio_b0.0/step_00200 {'next_ndcg@10': 0.0029, 'future_ndcg@10': 0.0045, 'top10_proxy': 0.7042, 'duration_s': 104.828, 'slate_proxy': 2.8756, 'slate_judge': 2.8585, 'slate_kl': 37.0481}\n"}
+,{"stream_name":"stdout","time":14748.319123328,"data":"ratio_b0.0/step_00600 {'next_ndcg@10': 0.0024, 'future_ndcg@10': 0.0033, 'top10_proxy': 0.705, 'duration_s': 104.1626, 'slate_proxy': 2.8867, 'slate_judge': 2.8665, 'slate_kl': 40.0317}\n"}
+,{"stream_name":"stdout","time":14748.319127294,"data":"ratio_b0.01/step_00400 {'next_ndcg@10': 0.0024, 'future_ndcg@10': 0.0035, 'top10_proxy': 0.705, 'duration_s': 104.8509, 'slate_proxy': 2.8853, 'slate_judge': 2.8656, 'slate_kl': 38.7138}\n"}
+,{"stream_name":"stdout","time":14748.319131496,"data":"ratio_b0.03/step_00200 {'next_ndcg@10': 0.005, 'future_ndcg@10': 0.0083, 'top10_proxy': 0.7046, 'duration_s': 111.653, 'slate_proxy': 2.8638, 'slate_judge': 2.8507, 'slate_kl': 24.615}\n"}
+,{"stream_name":"stdout","time":14748.319135954,"data":"ratio_b0.03/step_00600 {'next_ndcg@10': 0.0031, 'future_ndcg@10': 0.0046, 'top10_proxy': 0.7059, 'duration_s': 105.3242, 'slate_proxy': 2.8838, 'slate_judge': 2.8647, 'slate_kl': 36.1192}\n"}
+,{"stream_name":"stdout","time":14748.319139761,"data":"ratio_b0.1/step_00400 {'next_ndcg@10': 0.0167, 'future_ndcg@10': 0.0248, 'top10_proxy': 0.704, 'duration_s': 142.8006, 'slate_proxy': 2.8353, 'slate_judge': 2.8297, 'slate_kl': 5.0079}\n"}
+,{"stream_name":"stdout","time":14748.319147238,"data":"ratio_b0.3/step_00200 {'next_ndcg@10': 0.0232, 'future_ndcg@10': 0.0332, 'top10_proxy': 0.6951, 'duration_s': 168.352, 'slate_proxy': 2.8012, 'slate_judge': 2.7984, 'slate_kl': 0.745}\n"}
+,{"stream_name":"stdout","time":14748.319151378,"data":"ratio_b0.3/step_00600 {'next_ndcg@10': 0.0232, 'future_ndcg@10': 0.0331, 'top10_proxy': 0.6962, 'duration_s': 166.8413, 'slate_proxy': 2.8036, 'slate_judge': 2.8004, 'slate_kl': 0.7842}\n"}
+,{"stream_name":"stdout","time":14748.319155389,"data":"ratio_b1.0/step_00400 {'next_ndcg@10': 0.0236, 'future_ndcg@10': 0.0341, 'top10_proxy': 0.6903, 'duration_s': 179.5993, 'slate_proxy': 2.7826, 'slate_judge': 2.7807, 'slate_kl': 0.0929}\n"}
+,{"stream_name":"stdout","time":14748.319159501,"data":"seconds_b0.1/step_00200 {'next_ndcg@10': 0.0062, 'future_ndcg@10': 0.0103, 'top10_proxy': 0.635, 'duration_s': 359.7093, 'slate_proxy': 2.6407, 'slate_judge': 2.6457, 'slate_kl': 12.4705}\n"}
+,{"stream_name":"stdout","time":14748.31916418,"data":"seconds_b0.1/step_00600 {'next_ndcg@10': 0.0045, 'future_ndcg@10': 0.0081, 'top10_proxy': 0.6291, 'duration_s': 389.8039, 'slate_proxy': 2.6244, 'slate_judge': 2.6285, 'slate_kl': 14.8095}\n"}
+,{"stream_name":"stdout","time":14748.31916844,"data":"exit 0\n"}
+,{"stream_name":"stderr","time":14750.792529658,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14750.792567257,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14750.970875066,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14750.970895644,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14751.766136315,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":14751.84963353,"data":"[NbConvertApp] Writing 96324 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":14754.264455132,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14755.014019042,"data":"[NbConvertApp] Writing 680630 bytes to __results__.html\n"}
+]

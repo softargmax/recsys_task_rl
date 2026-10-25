@@ -1,0 +1,15 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm2 --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00400.pt /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00200.pt /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00600.pt /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00400.pt /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00200.pt /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00600.pt --out ../runs/eval/rm2_1.json --export-topk ../runs/eval/rm2_top10_1.npz
+evaluated /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00200.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00600.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00200.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00600.pt
+sft {'next_ndcg@10': 0.0237, 'lp_future_ndcg@10': 0.0334, 'top10_proxy': 0.6868, 'duration_s': 189.6559, 'skip_gauc': 0.5525, 'slate_proxy': 2.7393, 'slate_judge': 2.7382}
+norm_b0.1/step_00400 {'next_ndcg@10': 0.0195, 'lp_future_ndcg@10': 0.0292, 'top10_proxy': 0.6939, 'duration_s': 192.6288, 'skip_gauc': 0.5434, 'slate_proxy': 2.7759, 'slate_judge': 2.7722, 'slate_kl': 1.6101}
+ratio_b0.03/step_00200 {'next_ndcg@10': 0.0128, 'lp_future_ndcg@10': 0.0192, 'top10_proxy': 0.6975, 'duration_s': 134.1937, 'skip_gauc': 0.5314, 'slate_proxy': 2.8085, 'slate_judge': 2.805, 'slate_kl': 9.4183}
+ratio_b0.03/step_00600 {'next_ndcg@10': 0.0105, 'lp_future_ndcg@10': 0.0164, 'top10_proxy': 0.6996, 'duration_s': 128.4241, 'skip_gauc': 0.5293, 'slate_proxy': 2.822, 'slate_judge': 2.8172, 'slate_kl': 12.9313}
+ratio_b0.1/step_00400 {'next_ndcg@10': 0.019, 'lp_future_ndcg@10': 0.0283, 'top10_proxy': 0.6999, 'duration_s': 153.5555, 'skip_gauc': 0.5458, 'slate_proxy': 2.7973, 'slate_judge': 2.7947, 'slate_kl': 3.3318}
+ratio_b0.3/step_00200 {'next_ndcg@10': 0.0232, 'lp_future_ndcg@10': 0.0338, 'top10_proxy': 0.6946, 'duration_s': 171.4997, 'skip_gauc': 0.5529, 'slate_proxy': 2.7685, 'slate_judge': 2.7664, 'slate_kl': 0.6298}
+ratio_b0.3/step_00600 {'next_ndcg@10': 0.0231, 'lp_future_ndcg@10': 0.0339, 'top10_proxy': 0.6955, 'duration_s': 170.4745, 'skip_gauc': 0.5515, 'slate_proxy': 2.7706, 'slate_judge': 2.7683, 'slate_kl': 0.6528}
+exit 0

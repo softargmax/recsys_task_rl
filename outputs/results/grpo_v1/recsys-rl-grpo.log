@@ -1,0 +1,855 @@
+[{"stream_name":"stderr","time":7.769633184,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.769693731,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.769701618,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.769706746,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.43599355,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.436032009,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.436041653,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.436044736,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.679620164,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/810.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m450.6/810.4 kB\u001b[0m \u001b[31m13.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m810.4/810.4 kB\u001b[0m \u001b[31m12.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.089090525,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/45.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.5/45.8 MB\u001b[0m \u001b[31m194.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.5/45.8 MB\u001b[0m \u001b[31m211.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.1/45.8 MB\u001b[0m \u001b[31m202.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━\u001b[0m \u001b[32m28.2/45.8 MB\u001b[0m \u001b[31m205.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━\u001b[0m \u001b[32m35.5/45.8 MB\u001b[0m \u001b[31m207.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━\u001b[0m \u001b[32m43.9/45.8 MB\u001b[0m \u001b[31m237.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m228.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m228.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m228.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m228.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m228.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m45.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.474662091,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":18.474703876,"data":"cudf-polars-cu12 26.2.1 requires polars\u003c1.36,\u003e=1.30, but you have polars 1.38.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":18.704635262,"data":"\u001b[0mGPU 0: Tesla T4 (UUID: GPU-b9c198ab-c592-5261-e82d-603f63912bf4)\n"}
+,{"stream_name":"stdout","time":18.704672385,"data":"GPU 1: Tesla T4 (UUID: GPU-c833ebf3-1c42-bb71-315d-8d9f6f52faf1)\n"}
+,{"stream_name":"stdout","time":18.704678486,"data":"\n"}
+,{"stream_name":"stdout","time":18.851219444,"data":"Writing /kaggle/working/code/rl/config.py\n"}
+,{"stream_name":"stdout","time":18.866673091,"data":"Writing /kaggle/working/code/rl/data.py\n"}
+,{"stream_name":"stdout","time":18.884311821,"data":"Writing /kaggle/working/code/rl/evaluate.py\n"}
+,{"stream_name":"stdout","time":18.899328082,"data":"Writing /kaggle/working/code/rl/grpo.py\n"}
+,{"stream_name":"stdout","time":18.91446377,"data":"Writing /kaggle/working/code/rl/metrics.py\n"}
+,{"stream_name":"stdout","time":18.930349636,"data":"Writing /kaggle/working/code/rl/model.py\n"}
+,{"stream_name":"stdout","time":18.9461611,"data":"Writing /kaggle/working/code/rl/optim.py\n"}
+,{"stream_name":"stdout","time":18.965691005,"data":"Writing /kaggle/working/code/rl/prepare.py\n"}
+,{"stream_name":"stdout","time":18.986468412,"data":"Writing /kaggle/working/code/rl/reward.py\n"}
+,{"stream_name":"stdout","time":19.001358555,"data":"Writing /kaggle/working/code/rl/rollout.py\n"}
+,{"stream_name":"stdout","time":19.017726878,"data":"Writing /kaggle/working/code/rl/sft.py\n"}
+,{"stream_name":"stdout","time":201.581957234,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":201.581993592,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.0 --out-dir ../runs/grpo/ratio_b0.0\n"}
+,{"stream_name":"stdout","time":201.582000157,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582014769,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582019601,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.582026834,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.582029856,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.582032436,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.582035151,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.58203766,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.582040176,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.582042904,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.582045695,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582048365,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.582050839,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582053384,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.58205596,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.582058684,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582061234,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.582063787,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.58206627,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.582068937,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.582071412,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582073866,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58207653,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582079,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582081435,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582084066,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582088414,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.582091181,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.582093601,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582096108,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58209873,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582104061,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582106703,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582109361,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582111799,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.58211436,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.582117166,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.582119701,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.5821223,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582124749,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582127208,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582129882,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582132324,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582134944,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58213741,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582140124,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582142826,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.582145551,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.58214796,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.582150376,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.582152905,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.582155308,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.582157716,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.582160297,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582162739,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58216521,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582167897,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582170316,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582172766,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582175369,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58217817,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.582180825,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582185745,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582188537,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582190947,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582193387,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58219597,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582198447,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.582201064,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582203501,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582206091,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582208493,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582210931,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582213538,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582215971,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.58221859,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.582221218,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.582225038,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.582232074,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.582234922,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.03 --out-dir ../runs/grpo/ratio_b0.03\n"}
+,{"stream_name":"stdout","time":201.582237647,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582240402,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582243056,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.582245462,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.582248032,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.58225363,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.582256472,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.582258868,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.58226121,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.582263815,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.582266487,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582269242,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.582271728,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582274245,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.5822768,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.58227936,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58228191,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.582284437,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.58228692,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.582289503,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.582291979,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582294428,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582297038,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582299468,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582301919,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582304511,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582306934,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.582309497,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.582311925,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582314527,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582317177,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582319592,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582322023,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582324591,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582327011,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.582329681,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.582335487,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.582338194,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582340779,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582343195,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582346426,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582350427,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582354113,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582356825,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582359277,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582361935,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582364385,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.582367086,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.582369467,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.582371862,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.582374347,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.582376807,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.582379162,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.582381801,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582384245,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582386778,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58238938,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58239181,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582394259,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582396902,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582399339,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.582401959,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582404724,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582407341,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582409747,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582412176,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582417531,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582420147,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.58242275,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582425212,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582427848,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582432504,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582434984,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582467559,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582476082,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.582480387,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.582484487,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.582488979,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.582495012,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.582502789,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.3 --out-dir ../runs/grpo/ratio_b0.3\n"}
+,{"stream_name":"stdout","time":201.582506172,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582509722,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582512483,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.582515183,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.58251791,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.582520642,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.582523317,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.582525757,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.582528093,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.58253064,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.582536809,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582539591,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.582542198,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582544876,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.582547504,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.582550122,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582552745,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.582555278,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.582557844,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.582560533,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.582563043,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582565508,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582568708,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582571243,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582573738,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582576368,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582578775,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.582581383,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.582583888,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582586419,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582589378,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582592261,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582594797,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582597421,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582599908,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.582602411,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.582605049,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.582607503,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582610087,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582612483,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582618338,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582621086,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582623536,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582626133,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582628654,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582631264,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582633717,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.582636323,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.582638797,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.582641198,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.582643646,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.582646023,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.582648485,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.582651089,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582653533,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582655987,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582658649,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582661058,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582663499,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582666067,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582668504,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.58267113,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582673635,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582676495,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582678978,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582681431,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582683983,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582686423,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.582689013,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582691455,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582702116,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582704762,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582707222,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58271,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58271253,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.582715131,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.58271771,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.582720448,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.582723946,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.582726335,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward seconds --beta 0.1 --out-dir ../runs/grpo/seconds_b0.1\n"}
+,{"stream_name":"stdout","time":201.58272904,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582732006,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582734737,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.582737156,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.582739721,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.582742236,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.582744828,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.582747284,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.582749688,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.582752277,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.582754942,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582757502,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.582759961,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582762473,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.582767276,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.582770003,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582772604,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.582775102,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.582777591,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.582780146,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.582782688,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582785128,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582787722,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582790206,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582792761,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582795338,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582797762,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.58280029,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.582802792,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.582805206,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58280779,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582810379,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582812906,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582815693,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582818132,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.582820653,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.582823306,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.582825744,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582828331,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582830774,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582833232,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58283581,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582838268,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582840872,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582850722,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.582853643,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.5828561,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.582858755,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.582861159,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.582863568,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.582866028,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.582868408,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.582870805,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.582873421,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582875892,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582878353,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582880994,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582883453,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582885907,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582888493,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582891049,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.582893682,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582896167,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582898759,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582901264,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582904124,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582906846,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582909365,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.582912044,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.582914492,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.582917079,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582919497,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582922013,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.582924584,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.582927029,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.582931877,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.582934735,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.58293741,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.582940976,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.582943343,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward pess --beta 0.1 --out-dir ../runs/grpo/pess_b0.1\n"}
+,{"stream_name":"stdout","time":201.582946019,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.582948687,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.58295173,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.582954407,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.582957054,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.582959607,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.58296219,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.582964809,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.582967167,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.582969693,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.582972276,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582975002,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.582977476,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582979977,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.582982509,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.582985112,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.582987643,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.582990172,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.582994999,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.582997708,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.583000179,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583002789,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583005465,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583007902,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583010362,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583012933,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583015383,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.583017914,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.583020317,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583022729,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583025321,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583027734,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583030177,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583032752,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583035144,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.583037882,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.583040576,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.583043013,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583045591,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583048002,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583050444,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583053008,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583055458,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583058032,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583060468,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583063075,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583065528,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.583068145,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.583072775,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.583075335,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.583077787,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.583080199,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.583082597,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.583085212,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583087657,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583090134,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583092743,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583095185,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583097628,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583100368,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583102805,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.583105418,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583107917,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583110538,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58311296,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583115428,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583118031,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583120648,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.58312328,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583125787,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583128411,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58313084,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58313332,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58313593,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58313839,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.583141011,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.583143614,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.583146253,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.583152734,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.583155241,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":201.5831576,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.01 --out-dir ../runs/grpo/ratio_b0.01\n"}
+,{"stream_name":"stdout","time":201.583160297,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583162955,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583165653,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.583168079,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.583170622,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.583173173,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.583176145,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.583178566,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.583180921,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.583183475,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.58318605,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583188643,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.58319111,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58319389,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.583196549,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.583199078,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58320228,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.583204903,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.583207382,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.583209935,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.583212361,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583214895,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58321998,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583222601,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583225159,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583227728,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583230136,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.583232665,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.583235063,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583237469,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583240023,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583242437,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583244864,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58324745,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583249879,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.583252403,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.583255022,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.583257647,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58326022,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583262644,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58326507,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583267663,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583270103,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583272699,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583275144,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583277758,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583280228,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.583282848,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.583285253,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.58328765,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.58329008,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.583292621,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.583295018,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.58329965,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58330226,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583304723,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583307346,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583309773,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58331222,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58331483,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583317284,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.58331987,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583322388,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583324983,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583327405,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583329847,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583332443,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583334882,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.583337488,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583340078,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58334266,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583345669,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583349946,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58335279,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583355355,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.583357949,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.58336055,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.583363255,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.583369376,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.583371928,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.1 --out-dir ../runs/grpo/ratio_b0.1\n"}
+,{"stream_name":"stdout","time":201.583374636,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.58337732,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583380045,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.583382489,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.583385079,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.583387801,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.583390447,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.583392857,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.583395208,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.583397961,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.583400569,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583403141,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.583405609,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583408099,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.583410638,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.583413194,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583415758,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.583418281,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.583420759,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.583423302,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.583425749,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583428196,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583430793,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583433223,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583435661,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583447485,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58345026,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.583455057,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.583471528,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583476306,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583480879,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583484937,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583488736,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583492671,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583496366,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.583504055,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.583506956,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.583509389,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583512083,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583514517,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583517341,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583519894,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583522322,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.58352498,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583527572,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583530168,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583532682,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.583535293,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.583537685,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.583540154,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.583552066,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.583556886,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.583561017,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.583565371,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583569141,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583572838,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583576785,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583580444,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583592501,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583595461,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583597999,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.583600634,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583603119,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583605723,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583608189,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583610671,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583613238,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583615669,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.583618321,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583620754,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58362335,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583625786,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583628557,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583631126,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583633575,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.583636179,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.583638778,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.583641437,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.583644936,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.583647286,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 1.0 --out-dir ../runs/grpo/ratio_b1.0\n"}
+,{"stream_name":"stdout","time":201.583649956,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583652653,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583657898,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.583660598,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.583663157,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.583665704,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.583668296,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.583670655,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.583673028,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.583675545,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.583678432,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583681017,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.583683487,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583685964,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.583688477,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.58369101,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583693587,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.583696109,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.58369857,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.583701142,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.583703605,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.58370604,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583708662,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583711094,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58371353,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583716127,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583718535,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.583721192,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.583723607,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.58372602,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583728723,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583734122,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583736755,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583739314,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583741903,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.58374444,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.583747102,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.583749536,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583752172,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583754747,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583757246,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583759842,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583762549,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583765178,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58376761,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583770231,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583772772,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.583775365,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.583777775,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.583780174,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.583782625,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.583785016,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.583787404,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.583790031,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583792495,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583794955,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583797572,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58379999,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583802442,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583805016,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58380746,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.583810095,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.58381493,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583817748,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583820164,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583822603,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583825158,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58382759,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.583830182,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.583832634,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583835235,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583837666,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583840102,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.58384269,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58385009,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.583852922,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.583855575,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.583858232,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.583861738,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.583864092,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward norm --beta 0.1 --out-dir ../runs/grpo/norm_b0.1\n"}
+,{"stream_name":"stdout","time":201.583866772,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583869445,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.583872115,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.583874552,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.583877127,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.583882025,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.583884809,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.583887177,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.583890622,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.583893217,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.58389578,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583898482,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.583901155,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583903699,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.583906302,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.583908912,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583911558,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.583914052,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.583916515,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.583919076,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.583921544,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583923951,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583926706,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583929142,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583931583,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583934166,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583936576,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.583939108,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.583941513,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.583943921,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583946652,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583949071,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583951506,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583954058,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583956478,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.583958997,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.583964161,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.583966812,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.583969407,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58397182,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.583974273,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.583976813,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.58397926,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.583981926,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583984667,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.58398732,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.583989884,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.5839925,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.583995006,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.583997412,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.583999927,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.584002381,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.58400478,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.584007427,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584009883,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584012346,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.58401492,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584017421,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584020038,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584022624,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584025067,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.584027701,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.584030189,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584032801,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584035223,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584037706,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584042934,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584045668,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.58404825,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.584050698,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584053288,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584055704,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584058138,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584060718,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584063148,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.584065941,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.584068568,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.584071225,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.584074729,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":201.584077092,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward continue --beta 0.1 --out-dir ../runs/grpo/continue_b0.1\n"}
+,{"stream_name":"stdout","time":201.584079831,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.584082505,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":201.58408519,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":201.584088461,"data":"  File \"\u003cfrozen runpy\u003e\", line 203, in _run_module_as_main\n"}
+,{"stream_name":"stdout","time":201.584091088,"data":"  File \"\u003cfrozen runpy\u003e\", line 88, in _run_code\n"}
+,{"stream_name":"stdout","time":201.584093605,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 86, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":201.584096161,"data":"    main()\n"}
+,{"stream_name":"stdout","time":201.584098521,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":201.584100933,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 81, in main\n"}
+,{"stream_name":"stdout","time":201.584103462,"data":"    train_grpo(Data(a.data), a.sft, a.rm_dir, a.out_dir, a.reward, a.beta, a.steps, a.batch_size, a.group, a.slate,\n"}
+,{"stream_name":"stdout","time":201.584108201,"data":"    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584110974,"data":"               a.lr, a.k_pess, a.save_every, a.device, a.seed)\n"}
+,{"stream_name":"stdout","time":201.584113538,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.58411616,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 53, in train_grpo\n"}
+,{"stream_name":"stdout","time":201.584118981,"data":"    loss, stats = grpo_step(policy, ref, rewards, data, batch, kind, beta, group, slate, k_pess)\n"}
+,{"stream_name":"stdout","time":201.584121578,"data":"                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584124111,"data":"  File \"/kaggle/working/code/rl/grpo.py\", line 20, in grpo_step\n"}
+,{"stream_name":"stdout","time":201.584126629,"data":"    logp = slate_logprobs(policy, batch, slates, data)\n"}
+,{"stream_name":"stdout","time":201.584129126,"data":"  File \"/kaggle/working/code/rl/rollout.py\", line 31, in slate_logprobs\n"}
+,{"stream_name":"stdout","time":201.584131637,"data":"    logits = policy.logits(policy(b)[:, -k:]).float()\n"}
+,{"stream_name":"stdout","time":201.584134081,"data":"                           ~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.58413651,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584139269,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584141701,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584144131,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584146738,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584149164,"data":"  File \"/kaggle/working/code/rl/model.py\", line 60, in forward\n"}
+,{"stream_name":"stdout","time":201.584151693,"data":"    return self.encoder(b)\n"}
+,{"stream_name":"stdout","time":201.584154084,"data":"           ~~~~~~~~~~~~^^^\n"}
+,{"stream_name":"stdout","time":201.584156488,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584159084,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584161495,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584163929,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584166506,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584168925,"data":"  File \"/kaggle/working/code/rl/model.py\", line 40, in forward\n"}
+,{"stream_name":"stdout","time":201.584171505,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\n"}
+,{"stream_name":"stdout","time":201.584174095,"data":"                   use_cache=False)\n"}
+,{"stream_name":"stdout","time":201.584176518,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584179074,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584181491,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584186283,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584189064,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584191509,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\", line 1068, in wrapper\n"}
+,{"stream_name":"stdout","time":201.584194116,"data":"    output = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584196559,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\", line 262, in wrapper\n"}
+,{"stream_name":"stdout","time":201.584199179,"data":"    outputs = func(self, *args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584201812,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 608, in forward\n"}
+,{"stream_name":"stdout","time":201.584204452,"data":"    hidden_states = block(\n"}
+,{"stream_name":"stdout","time":201.584206884,"data":"        hidden_states,\n"}
+,{"stream_name":"stdout","time":201.584209293,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":201.584211775,"data":"        **kwargs,\n"}
+,{"stream_name":"stdout","time":201.584214159,"data":"    )\n"}
+,{"stream_name":"stdout","time":201.584216592,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 114, in __call__\n"}
+,{"stream_name":"stdout","time":201.584219229,"data":"    return super().__call__(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584221696,"data":"           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584224157,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584226738,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584229162,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584231609,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584234302,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584236749,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 305, in forward\n"}
+,{"stream_name":"stdout","time":201.584239372,"data":"    feed_forward_hidden_states = self.mlp(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.584241881,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584244501,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584246904,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584249349,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584251929,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584254373,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\", line 240, in forward\n"}
+,{"stream_name":"stdout","time":201.584256974,"data":"    hidden_states = self.act(hidden_states)\n"}
+,{"stream_name":"stdout","time":201.584259436,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1779, in _wrapped_call_impl\n"}
+,{"stream_name":"stdout","time":201.584264282,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584266884,"data":"           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":201.584269332,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\", line 1790, in _call_impl\n"}
+,{"stream_name":"stdout","time":201.584271905,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":201.584274372,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/activations.py\", line 66, in forward\n"}
+,{"stream_name":"stdout","time":201.584276974,"data":"    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))\n"}
+,{"stream_name":"stdout","time":201.584279824,"data":"           ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":201.584282521,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 34.81 MiB is free. Including non-PyTorch memory, this process has 14.53 GiB memory in use. Of the allocated memory 13.32 GiB is allocated by PyTorch, and 1.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":201.584286041,"data":"exit 1\n"}
+,{"stream_name":"stdout","time":1014.103393356,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":1014.103479867,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --baselines --best-of 1 4 16 64 --policies  --out ../runs/eval/val_0.json\n"}
+,{"stream_name":"stdout","time":1014.103490792,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":1014.103496824,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":1014.103502547,"data":"most_pop {'next_ndcg@10': 0.0031, 'future_ndcg@10': 0.0053, 'duration_s': 168.0}\n"}
+,{"stream_name":"stdout","time":1014.103507704,"data":"recent {'next_ndcg@10': 0.0261, 'future_ndcg@10': 0.032, 'duration_s': 196.5985}\n"}
+,{"stream_name":"stdout","time":1014.103512832,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":1014.103518304,"data":"best_of_1 {'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":1014.103530274,"data":"best_of_4 {'slate_proxy': 2.823, 'slate_judge': 2.8178, 'slate_kl_bound': 0.6363}\n"}
+,{"stream_name":"stdout","time":1014.103550598,"data":"best_of_16 {'slate_proxy': 2.8625, 'slate_judge': 2.8548, 'slate_kl_bound': 1.8351}\n"}
+,{"stream_name":"stdout","time":1014.103556801,"data":"best_of_64 {'slate_proxy': 2.8945, 'slate_judge': 2.8849, 'slate_kl_bound': 3.1745}\n"}
+,{"stream_name":"stdout","time":1014.103562357,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":1014.103568178,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":1014.103573308,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies  --out ../runs/eval/val_1.json\n"}
+,{"stream_name":"stdout","time":1014.103591783,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":1014.103596317,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":1014.10360065,"data":"sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}\n"}
+,{"stream_name":"stdout","time":1014.103604923,"data":"exit 0\n"}
+,{"stream_name":"stderr","time":1017.116583978,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1017.116619897,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1017.3142069,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1017.314235799,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1018.201403746,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1018.300310131,"data":"[NbConvertApp] Writing 153797 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1021.242219822,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1022.105198577,"data":"[NbConvertApp] Writing 725468 bytes to __results__.html\n"}
+]

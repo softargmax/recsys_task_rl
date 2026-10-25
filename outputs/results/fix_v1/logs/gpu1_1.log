@@ -1,0 +1,15 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --policies /kaggle/working/runs/fix/ce0.3/step_00400.pt /kaggle/working/runs/fix/ce1/step_00200.pt /kaggle/working/runs/fix/ce1/step_00600.pt /kaggle/working/runs/fix/ce1_hit1/step_00400.pt /kaggle/working/runs/fix/hit1/step_00200.pt /kaggle/working/runs/fix/hit1/step_00600.pt --out ../runs/eval/fix_1.json
+evaluated /kaggle/working/runs/fix/ce0.3/step_00400.pt
+evaluated /kaggle/working/runs/fix/ce1/step_00200.pt
+evaluated /kaggle/working/runs/fix/ce1/step_00600.pt
+evaluated /kaggle/working/runs/fix/ce1_hit1/step_00400.pt
+evaluated /kaggle/working/runs/fix/hit1/step_00200.pt
+evaluated /kaggle/working/runs/fix/hit1/step_00600.pt
+sft {'next_ndcg@10': 0.0237, 'future_ndcg@10': 0.0339, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+ce0.3/step_00400 {'next_ndcg@10': 0.0182, 'future_ndcg@10': 0.0264, 'top10_proxy': 0.7031, 'duration_s': 145.1813, 'slate_proxy': 2.8306, 'slate_judge': 2.8257, 'slate_kl': 4.1}
+ce1/step_00200 {'next_ndcg@10': 0.0194, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.7, 'duration_s': 152.9394, 'slate_proxy': 2.8183, 'slate_judge': 2.8145, 'slate_kl': 2.731}
+ce1/step_00600 {'next_ndcg@10': 0.0184, 'future_ndcg@10': 0.0271, 'top10_proxy': 0.7024, 'duration_s': 147.9933, 'slate_proxy': 2.8263, 'slate_judge': 2.8219, 'slate_kl': 3.2604}
+ce1_hit1/step_00400 {'next_ndcg@10': 0.0209, 'future_ndcg@10': 0.0301, 'top10_proxy': 0.6997, 'duration_s': 155.3569, 'slate_proxy': 2.8181, 'slate_judge': 2.8145, 'slate_kl': 2.2982}
+hit1/step_00200 {'next_ndcg@10': 0.02, 'future_ndcg@10': 0.0296, 'top10_proxy': 0.6995, 'duration_s': 154.2965, 'slate_proxy': 2.8213, 'slate_judge': 2.8175, 'slate_kl': 3.0013}
+hit1/step_00600 {'next_ndcg@10': 0.0193, 'future_ndcg@10': 0.0286, 'top10_proxy': 0.7017, 'duration_s': 149.7849, 'slate_proxy': 2.8289, 'slate_judge': 2.8245, 'slate_kl': 3.6179}
+exit 0

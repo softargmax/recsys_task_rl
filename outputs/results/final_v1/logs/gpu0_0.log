@@ -1,0 +1,59 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --max-queries 10000 --slate-queries 2000 --baselines --best-of 1 4 16 64 --policies /kaggle/working/runs/grpo/continue_b0.1/step_00200.pt /kaggle/working/runs/grpo/continue_b0.1/step_00600.pt /kaggle/working/runs/grpo/norm_b0.1/step_00400.pt /kaggle/working/runs/grpo/pess_b0.1/step_00200.pt /kaggle/working/runs/grpo/pess_b0.1/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.0/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.01/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.03/step_00400.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00200.pt /kaggle/working/runs/grpo/ratio_b0.1/step_00600.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00400.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00200.pt /kaggle/working/runs/grpo/ratio_b1.0/step_00600.pt /kaggle/working/runs/grpo/seconds_b0.1/step_00400.pt /kaggle/working/runs/fix/ce0.3/step_00200.pt /kaggle/working/runs/fix/ce0.3/step_00600.pt /kaggle/working/runs/fix/ce1/step_00400.pt /kaggle/working/runs/fix/ce1_hit1/step_00200.pt /kaggle/working/runs/fix/ce1_hit1/step_00600.pt /kaggle/working/runs/fix/hit1/step_00400.pt /kaggle/working/runs/fix/rwsft_l0.5/policy.pt /kaggle/working/runs/fix2/norm_b0.3/step_00400.pt /kaggle/working/runs/fix2/norm_ce1_b0.1/step_00200.pt /kaggle/working/runs/fix2/norm_ce1_b0.1/step_00600.pt --out ../runs/eval/final_0.json --export-topk ../runs/eval/top10_0.npz
+evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo/continue_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo/norm_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo/pess_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.0/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.01/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.03/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00400.pt
+evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00200.pt
+evaluated /kaggle/working/runs/grpo/ratio_b1.0/step_00600.pt
+evaluated /kaggle/working/runs/grpo/seconds_b0.1/step_00400.pt
+evaluated /kaggle/working/runs/fix/ce0.3/step_00200.pt
+evaluated /kaggle/working/runs/fix/ce0.3/step_00600.pt
+evaluated /kaggle/working/runs/fix/ce1/step_00400.pt
+evaluated /kaggle/working/runs/fix/ce1_hit1/step_00200.pt
+evaluated /kaggle/working/runs/fix/ce1_hit1/step_00600.pt
+evaluated /kaggle/working/runs/fix/hit1/step_00400.pt
+evaluated /kaggle/working/runs/fix/rwsft_l0.5/policy.pt
+evaluated /kaggle/working/runs/fix2/norm_b0.3/step_00400.pt
+evaluated /kaggle/working/runs/fix2/norm_ce1_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/fix2/norm_ce1_b0.1/step_00600.pt
+sft {'next_ndcg@10': 0.0237, 'lp_future_ndcg@10': 0.0334, 'top10_proxy': 0.6855, 'duration_s': 189.6559, 'skip_gauc': 0.5525, 'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+most_pop {'next_ndcg@10': 0.0031, 'lp_future_ndcg@10': 0.0051, 'duration_s': 168.0}
+recent {'next_ndcg@10': 0.0261, 'lp_future_ndcg@10': 0.0275, 'duration_s': 196.5985}
+best_of_1 {'slate_proxy': 2.7724, 'slate_judge': 2.7711}
+best_of_4 {'slate_proxy': 2.823, 'slate_judge': 2.8178, 'slate_kl_bound': 0.6363}
+best_of_16 {'slate_proxy': 2.8625, 'slate_judge': 2.8548, 'slate_kl_bound': 1.8351}
+best_of_64 {'slate_proxy': 2.8945, 'slate_judge': 2.8849, 'slate_kl_bound': 3.1745}
+continue_b0.1/step_00200 {'next_ndcg@10': 0.0123, 'lp_future_ndcg@10': 0.0177, 'top10_proxy': 0.6966, 'duration_s': 124.867, 'skip_gauc': 0.5302, 'slate_proxy': 2.814, 'slate_judge': 2.8099, 'slate_kl': 8.8651}
+continue_b0.1/step_00600 {'next_ndcg@10': 0.0112, 'lp_future_ndcg@10': 0.0165, 'top10_proxy': 0.6973, 'duration_s': 120.6964, 'skip_gauc': 0.5325, 'slate_proxy': 2.8192, 'slate_judge': 2.8145, 'slate_kl': 9.7279}
+norm_b0.1/step_00400 {'next_ndcg@10': 0.0188, 'lp_future_ndcg@10': 0.0281, 'top10_proxy': 0.6956, 'duration_s': 188.9109, 'skip_gauc': 0.5352, 'slate_proxy': 2.807, 'slate_judge': 2.802, 'slate_kl': 2.5225}
+pess_b0.1/step_00200 {'next_ndcg@10': 0.0185, 'lp_future_ndcg@10': 0.0274, 'top10_proxy': 0.7011, 'duration_s': 149.6694, 'skip_gauc': 0.5419, 'slate_proxy': 2.8257, 'slate_judge': 2.8222, 'slate_kl': 3.7998}
+pess_b0.1/step_00600 {'next_ndcg@10': 0.0176, 'lp_future_ndcg@10': 0.0269, 'top10_proxy': 0.7033, 'duration_s': 146.4777, 'skip_gauc': 0.5322, 'slate_proxy': 2.8332, 'slate_judge': 2.8292, 'slate_kl': 4.3389}
+ratio_b0.0/step_00400 {'next_ndcg@10': 0.0023, 'lp_future_ndcg@10': 0.0033, 'top10_proxy': 0.7049, 'duration_s': 104.6531, 'skip_gauc': 0.5082, 'slate_proxy': 2.8857, 'slate_judge': 2.8657, 'slate_kl': 39.4431}
+ratio_b0.01/step_00200 {'next_ndcg@10': 0.0032, 'lp_future_ndcg@10': 0.0051, 'top10_proxy': 0.7043, 'duration_s': 105.9407, 'skip_gauc': 0.5007, 'slate_proxy': 2.8734, 'slate_judge': 2.857, 'slate_kl': 35.0371}
+ratio_b0.01/step_00600 {'next_ndcg@10': 0.0024, 'lp_future_ndcg@10': 0.0034, 'top10_proxy': 0.7051, 'duration_s': 104.1358, 'skip_gauc': 0.5043, 'slate_proxy': 2.8864, 'slate_judge': 2.8664, 'slate_kl': 39.4727}
+ratio_b0.03/step_00400 {'next_ndcg@10': 0.0033, 'lp_future_ndcg@10': 0.005, 'top10_proxy': 0.7058, 'duration_s': 106.004, 'skip_gauc': 0.5012, 'slate_proxy': 2.882, 'slate_judge': 2.8634, 'slate_kl': 35.0938}
+ratio_b0.1/step_00200 {'next_ndcg@10': 0.0179, 'lp_future_ndcg@10': 0.0259, 'top10_proxy': 0.7018, 'duration_s': 146.4725, 'skip_gauc': 0.5364, 'slate_proxy': 2.8273, 'slate_judge': 2.8222, 'slate_kl': 4.3672}
+ratio_b0.1/step_00600 {'next_ndcg@10': 0.0165, 'lp_future_ndcg@10': 0.0248, 'top10_proxy': 0.7043, 'duration_s': 142.2406, 'skip_gauc': 0.534, 'slate_proxy': 2.8365, 'slate_judge': 2.8309, 'slate_kl': 5.1002}
+ratio_b0.3/step_00400 {'next_ndcg@10': 0.0229, 'lp_future_ndcg@10': 0.0335, 'top10_proxy': 0.696, 'duration_s': 166.9543, 'skip_gauc': 0.5482, 'slate_proxy': 2.8028, 'slate_judge': 2.7997, 'slate_kl': 0.7802}
+ratio_b1.0/step_00200 {'next_ndcg@10': 0.0236, 'lp_future_ndcg@10': 0.0337, 'top10_proxy': 0.6899, 'duration_s': 180.1779, 'skip_gauc': 0.5495, 'slate_proxy': 2.7824, 'slate_judge': 2.7804, 'slate_kl': 0.0972}
+ratio_b1.0/step_00600 {'next_ndcg@10': 0.0237, 'lp_future_ndcg@10': 0.0339, 'top10_proxy': 0.6903, 'duration_s': 179.2809, 'skip_gauc': 0.5498, 'slate_proxy': 2.7836, 'slate_judge': 2.7816, 'slate_kl': 0.0926}
+seconds_b0.1/step_00400 {'next_ndcg@10': 0.0046, 'lp_future_ndcg@10': 0.0072, 'top10_proxy': 0.6299, 'duration_s': 386.1291, 'skip_gauc': 0.5068, 'slate_proxy': 2.6283, 'slate_judge': 2.6324, 'slate_kl': 14.6315}
+ce0.3/step_00200 {'next_ndcg@10': 0.0185, 'lp_future_ndcg@10': 0.0274, 'top10_proxy': 0.7011, 'duration_s': 149.7253, 'skip_gauc': 0.5346, 'slate_proxy': 2.824, 'slate_judge': 2.8194, 'slate_kl': 3.4894}
+ce0.3/step_00600 {'next_ndcg@10': 0.0178, 'lp_future_ndcg@10': 0.0261, 'top10_proxy': 0.7033, 'duration_s': 144.9984, 'skip_gauc': 0.5342, 'slate_proxy': 2.8312, 'slate_judge': 2.8262, 'slate_kl': 4.0958}
+ce1/step_00400 {'next_ndcg@10': 0.0186, 'lp_future_ndcg@10': 0.0272, 'top10_proxy': 0.7021, 'duration_s': 148.3213, 'skip_gauc': 0.5356, 'slate_proxy': 2.8254, 'slate_judge': 2.8211, 'slate_kl': 3.2423}
+ce1_hit1/step_00200 {'next_ndcg@10': 0.0216, 'lp_future_ndcg@10': 0.0309, 'top10_proxy': 0.6979, 'duration_s': 158.7082, 'skip_gauc': 0.5456, 'slate_proxy': 2.8125, 'slate_judge': 2.8093, 'slate_kl': 1.962}
+ce1_hit1/step_00600 {'next_ndcg@10': 0.0206, 'lp_future_ndcg@10': 0.0298, 'top10_proxy': 0.7001, 'duration_s': 154.6301, 'skip_gauc': 0.5468, 'slate_proxy': 2.8185, 'slate_judge': 2.8148, 'slate_kl': 2.3353}
+hit1/step_00400 {'next_ndcg@10': 0.0194, 'lp_future_ndcg@10': 0.0287, 'top10_proxy': 0.7014, 'duration_s': 150.3048, 'skip_gauc': 0.5415, 'slate_proxy': 2.8279, 'slate_judge': 2.8234, 'slate_kl': 3.5586}
+rwsft_l0.5/policy {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0341, 'top10_proxy': 0.6878, 'duration_s': 187.1382, 'skip_gauc': 0.5526, 'slate_proxy': 2.7774, 'slate_judge': 2.7759, 'slate_kl': 0.0718}
+norm_b0.3/step_00400 {'next_ndcg@10': 0.0219, 'lp_future_ndcg@10': 0.0318, 'top10_proxy': 0.6912, 'duration_s': 189.4214, 'skip_gauc': 0.5525, 'slate_proxy': 2.7894, 'slate_judge': 2.7868, 'slate_kl': 0.4595}
+norm_ce1_b0.1/step_00200 {'next_ndcg@10': 0.0202, 'lp_future_ndcg@10': 0.0303, 'top10_proxy': 0.6938, 'duration_s': 187.2571, 'skip_gauc': 0.5423, 'slate_proxy': 2.7969, 'slate_judge': 2.7931, 'slate_kl': 1.2559}
+norm_ce1_b0.1/step_00600 {'next_ndcg@10': 0.0196, 'lp_future_ndcg@10': 0.0297, 'top10_proxy': 0.6948, 'duration_s': 188.0096, 'skip_gauc': 0.5429, 'slate_proxy': 2.8005, 'slate_judge': 2.7967, 'slate_kl': 1.5136}
+exit 0

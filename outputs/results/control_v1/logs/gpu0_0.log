@@ -1,0 +1,15 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --max-queries 60000 --policies /kaggle/working/runs/control/sft_cont_e1/policy.pt /kaggle/working/runs/control/sft_cont_e2/policy.pt /kaggle/working/runs/control/hit_b0.01/step_00600.pt /kaggle/working/runs/control/hit_b0.03_s1/step_00600.pt /kaggle/working/runs/night/hit_b0.03/step_00600.pt /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt --split test --out ../runs/eval/control_test.json --export-topk ../runs/eval/control_test_top10.npz
+evaluated /kaggle/working/runs/control/sft_cont_e1/policy.pt
+evaluated /kaggle/working/runs/control/sft_cont_e2/policy.pt
+evaluated /kaggle/working/runs/control/hit_b0.01/step_00600.pt
+evaluated /kaggle/working/runs/control/hit_b0.03_s1/step_00600.pt
+evaluated /kaggle/working/runs/night/hit_b0.03/step_00600.pt
+evaluated /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt
+sft {'next_ndcg@10': 0.0225, 'lp_future_ndcg@10': 0.0325, 'duration_s': 189.6626, 'skip_gauc': 0.5312}
+sft_cont_e1/policy {'next_ndcg@10': 0.0226, 'lp_future_ndcg@10': 0.0327, 'duration_s': 189.6959, 'skip_gauc': 0.5322}
+sft_cont_e2/policy {'next_ndcg@10': 0.0229, 'lp_future_ndcg@10': 0.033, 'duration_s': 190.0799, 'skip_gauc': 0.5327}
+hit_b0.01/step_00600 {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0337, 'duration_s': 185.2497, 'skip_gauc': 0.5277}
+hit_b0.03_s1/step_00600 {'next_ndcg@10': 0.023, 'lp_future_ndcg@10': 0.0332, 'duration_s': 185.7666, 'skip_gauc': 0.5295}
+hit_b0.03/step_00600 {'next_ndcg@10': 0.0235, 'lp_future_ndcg@10': 0.0335, 'duration_s': 187.1852, 'skip_gauc': 0.5287}
+rwsft_l0.5_e2/policy {'next_ndcg@10': 0.0227, 'lp_future_ndcg@10': 0.0334, 'duration_s': 187.5132, 'skip_gauc': 0.5361}
+exit 0

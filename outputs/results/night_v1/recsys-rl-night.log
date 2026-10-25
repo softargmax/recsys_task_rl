@@ -1,0 +1,101 @@
+[{"stream_name":"stderr","time":7.41869773,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.418738908,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.418757107,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.418761792,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.017960989,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.017989756,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.017995196,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.017999342,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.152790547,"data":"\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":15.152818476,"data":"cudf-polars-cu12 26.2.1 requires polars\u003c1.36,\u003e=1.30, but you have polars 1.38.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":15.486202047999999,"data":"\u001b[0mGPU 0: Tesla T4 (UUID: GPU-381ca479-3637-6d7c-61de-15a8770773b3)\n"}
+,{"stream_name":"stdout","time":15.486239582,"data":"GPU 1: Tesla T4 (UUID: GPU-54a32516-ca62-7ff6-25e3-9116f0e09c1b)\n"}
+,{"stream_name":"stdout","time":15.486243107,"data":"\n"}
+,{"stream_name":"stdout","time":15.627135954,"data":"Writing /kaggle/working/code/rl/config.py\n"}
+,{"stream_name":"stdout","time":15.64167885,"data":"Writing /kaggle/working/code/rl/data.py\n"}
+,{"stream_name":"stdout","time":15.658465499,"data":"Writing /kaggle/working/code/rl/evaluate.py\n"}
+,{"stream_name":"stdout","time":15.671694792,"data":"Writing /kaggle/working/code/rl/grpo.py\n"}
+,{"stream_name":"stdout","time":15.68476267,"data":"Writing /kaggle/working/code/rl/metrics.py\n"}
+,{"stream_name":"stdout","time":15.699606605,"data":"Writing /kaggle/working/code/rl/model.py\n"}
+,{"stream_name":"stdout","time":15.715908705,"data":"Writing /kaggle/working/code/rl/multistep.py\n"}
+,{"stream_name":"stdout","time":15.730116077,"data":"Writing /kaggle/working/code/rl/optim.py\n"}
+,{"stream_name":"stdout","time":15.745705238,"data":"Writing /kaggle/working/code/rl/prepare.py\n"}
+,{"stream_name":"stdout","time":15.762154860999999,"data":"Writing /kaggle/working/code/rl/reward.py\n"}
+,{"stream_name":"stdout","time":15.775096102,"data":"Writing /kaggle/working/code/rl/rollout.py\n"}
+,{"stream_name":"stdout","time":15.789194313,"data":"Writing /kaggle/working/code/rl/sft.py\n"}
+,{"stream_name":"stdout","time":10077.0398086,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":10077.039853257,"data":"$ python -m rl.sft --data ../data --init ../runs/sft_base/policy.pt --epochs 1 --lr 1e-4 --rw-lambda 0.25 --out-dir ../runs/night/rwsft_l0.25\n"}
+,{"stream_name":"stdout","time":10077.039859158,"data":"/kaggle/working/code/rl/optim.py:62: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10077.039865659,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10077.039873738,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10077.0398861,"data":"{\"epoch\": 1, \"steps\": 2644, \"next_recall@10\": 0.0463, \"next_ndcg@10\": 0.02276545738807056, \"next_recall@20\": 0.0871, \"next_ndcg@20\": 0.03308347917903479, \"future_recall@10\": 0.04164531746031746, \"future_ndcg@10\": 0.033911653859515715, \"future_recall@20\": 0.07476523809523809, \"future_ndcg@20\": 0.048131622410251, \"lp_next_recall@10\": 0.051425970873786406, \"lp_next_ndcg@10\": 0.025042438074466194, \"lp_next_recall@20\": 0.09663228155339806, \"lp_next_ndcg@20\": 0.03646879826471704, \"lp_future_recall@10\": 0.04647534191304851, \"lp_future_ndcg@10\": 0.03422639042390297, \"lp_future_recall@20\": 0.08227095580053519, \"lp_future_ndcg@20\": 0.04812057101698089, \"skipped_share@10\": 0.00623}\n"}
+,{"stream_name":"stdout","time":10077.039892613,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10077.039894816,"data":"$ python -m rl.sft --data ../data --init ../runs/sft_base/policy.pt --epochs 1 --lr 1e-4 --rw-lambda 1.0 --out-dir ../runs/night/rwsft_l1.0\n"}
+,{"stream_name":"stdout","time":10077.039897261,"data":"/kaggle/working/code/rl/optim.py:62: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10077.039899611,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10077.039902236,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10077.039905826,"data":"{\"epoch\": 1, \"steps\": 2644, \"next_recall@10\": 0.0469, \"next_ndcg@10\": 0.0234048901742146, \"next_recall@20\": 0.0879, \"next_ndcg@20\": 0.03375620616292928, \"future_recall@10\": 0.04136321428571429, \"future_ndcg@10\": 0.03397002172153629, \"future_recall@20\": 0.07539472222222222, \"future_ndcg@20\": 0.04843638862422517, \"lp_next_recall@10\": 0.05172936893203883, \"lp_next_ndcg@10\": 0.025536790919517587, \"lp_next_recall@20\": 0.09693567961165049, \"lp_next_ndcg@20\": 0.03695563125069154, \"lp_future_recall@10\": 0.04601623125788178, \"lp_future_ndcg@10\": 0.033962031986858106, \"lp_future_recall@20\": 0.0824099555092374, \"lp_future_ndcg@20\": 0.04792664400996496, \"skipped_share@10\": 0.0063100000000000005}\n"}
+,{"stream_name":"stdout","time":10077.039910005,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10077.039912193,"data":"$ python -m rl.sft --data ../data --init ../runs/sft_base/policy.pt --epochs 1 --lr 1e-4 --rw-lambda 0.5 --epochs 2 --out-dir ../runs/night/rwsft_l0.5_e2\n"}
+,{"stream_name":"stdout","time":10077.039914745,"data":"/kaggle/working/code/rl/optim.py:62: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10077.039917168,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10077.0399196,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10077.039921942,"data":"{\"epoch\": 1, \"steps\": 2644, \"next_recall@10\": 0.0495, \"next_ndcg@10\": 0.023810125377649014, \"next_recall@20\": 0.0874, \"next_ndcg@20\": 0.033345197197526724, \"future_recall@10\": 0.04216587301587301, \"future_ndcg@10\": 0.034247657441873865, \"future_recall@20\": 0.07509420634920634, \"future_ndcg@20\": 0.048194994253832335, \"lp_next_recall@10\": 0.05476334951456311, \"lp_next_ndcg@10\": 0.026209268195999443, \"lp_next_recall@20\": 0.09754247572815535, \"lp_next_ndcg@20\": 0.03696282018039652, \"lp_future_recall@10\": 0.04745548662110842, \"lp_future_ndcg@10\": 0.03438880790414381, \"lp_future_recall@20\": 0.08199205173159352, \"lp_future_ndcg@20\": 0.04770693899930081, \"skipped_share@10\": 0.0063100000000000005}\n"}
+,{"stream_name":"stdout","time":10077.039928715,"data":"{\"epoch\": 2, \"steps\": 5286, \"next_recall@10\": 0.0472, \"next_ndcg@10\": 0.023346252885360706, \"next_recall@20\": 0.0881, \"next_ndcg@20\": 0.03370327342774352, \"future_recall@10\": 0.04201007936507937, \"future_ndcg@10\": 0.034325132222580886, \"future_recall@20\": 0.07602087301587301, \"future_ndcg@20\": 0.048741843228830156, \"lp_next_recall@10\": 0.052639563106796114, \"lp_next_ndcg@10\": 0.025715873053812087, \"lp_next_recall@20\": 0.09905946601941748, \"lp_next_ndcg@20\": 0.03746100269567735, \"lp_future_recall@10\": 0.04685380288366724, \"lp_future_ndcg@10\": 0.034537477664946685, \"lp_future_recall@20\": 0.0836344465975151, \"lp_future_ndcg@20\": 0.04868542994995121, \"skipped_share@10\": 0.0063100000000000005}\n"}
+,{"stream_name":"stdout","time":10077.039932701,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10077.039934981,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":10077.039937261,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward hit --hit-weight 1 --group 16 --beta 0.1 --out-dir ../runs/night/hit_b0.1\n"}
+,{"stream_name":"stdout","time":10077.03993985,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10077.039942033,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward hit --hit-weight 1 --group 16 --beta 0.03 --out-dir ../runs/night/hit_b0.03\n"}
+,{"stream_name":"stdout","time":10077.039944466,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10077.039946558,"data":"$ python -m rl.grpo --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm --save-every 200 --reward ratio --beta 0.3 --seed 1 --out-dir ../runs/night/ratio_b0.3_s1\n"}
+,{"stream_name":"stdout","time":10077.039949004,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10855.960486222,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":10855.960537447,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --max-queries 60000 --policies /kaggle/working/runs/night/rwsft_l0.25/policy.pt /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt /kaggle/working/runs/night/rwsft_l1.0/policy.pt /kaggle/working/runs/night/hit_b0.03/step_00600.pt /kaggle/working/runs/night/hit_b0.1/step_00600.pt /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt /kaggle/working/runs/fix/rwsft_l0.5/policy.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt --split test --out ../runs/eval/night_test.json --export-topk ../runs/eval/night_test_top10.npz\n"}
+,{"stream_name":"stdout","time":10855.960548547,"data":"evaluated /kaggle/working/runs/night/rwsft_l0.25/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.96055386,"data":"evaluated /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960559454,"data":"evaluated /kaggle/working/runs/night/rwsft_l1.0/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960564779,"data":"evaluated /kaggle/working/runs/night/hit_b0.03/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960569683,"data":"evaluated /kaggle/working/runs/night/hit_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960574556,"data":"evaluated /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960579569,"data":"evaluated /kaggle/working/runs/fix/rwsft_l0.5/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960584632,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960589493,"data":"sft {'next_ndcg@10': 0.0225, 'lp_future_ndcg@10': 0.0325, 'duration_s': 189.6626, 'skip_gauc': 0.5312}\n"}
+,{"stream_name":"stdout","time":10855.960594588,"data":"rwsft_l0.25/policy {'next_ndcg@10': 0.0222, 'lp_future_ndcg@10': 0.0335, 'duration_s': 186.2931, 'skip_gauc': 0.5366}\n"}
+,{"stream_name":"stdout","time":10855.960607896,"data":"rwsft_l0.5_e2/policy {'next_ndcg@10': 0.0227, 'lp_future_ndcg@10': 0.0334, 'duration_s': 187.5132, 'skip_gauc': 0.5361}\n"}
+,{"stream_name":"stdout","time":10855.960613096,"data":"rwsft_l1.0/policy {'next_ndcg@10': 0.0225, 'lp_future_ndcg@10': 0.033, 'duration_s': 188.2139, 'skip_gauc': 0.5338}\n"}
+,{"stream_name":"stdout","time":10855.960617325,"data":"hit_b0.03/step_00600 {'next_ndcg@10': 0.0235, 'lp_future_ndcg@10': 0.0335, 'duration_s': 187.1852, 'skip_gauc': 0.5287}\n"}
+,{"stream_name":"stdout","time":10855.960621395,"data":"hit_b0.1/step_00600 {'next_ndcg@10': 0.0232, 'lp_future_ndcg@10': 0.0333, 'duration_s': 188.6537, 'skip_gauc': 0.53}\n"}
+,{"stream_name":"stdout","time":10855.960625745,"data":"ratio_b0.3_s1/step_00600 {'next_ndcg@10': 0.021, 'lp_future_ndcg@10': 0.0325, 'duration_s': 165.9731, 'skip_gauc': 0.5375}\n"}
+,{"stream_name":"stdout","time":10855.960629734,"data":"rwsft_l0.5/policy {'next_ndcg@10': 0.0223, 'lp_future_ndcg@10': 0.0333, 'duration_s': 187.2076, 'skip_gauc': 0.5355}\n"}
+,{"stream_name":"stdout","time":10855.960635256,"data":"ratio_b0.3/step_00600 {'next_ndcg@10': 0.0211, 'lp_future_ndcg@10': 0.0325, 'duration_s': 166.097, 'skip_gauc': 0.5377}\n"}
+,{"stream_name":"stdout","time":10855.960639135,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10855.960642565,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":10855.960646146,"data":"$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --max-queries 60000 --policies /kaggle/working/runs/night/rwsft_l0.25/policy.pt /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt /kaggle/working/runs/night/rwsft_l1.0/policy.pt /kaggle/working/runs/night/hit_b0.03/step_00600.pt /kaggle/working/runs/night/hit_b0.1/step_00600.pt /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt /kaggle/working/runs/fix/rwsft_l0.5/policy.pt /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt --split val --out ../runs/eval/night_val.json --export-topk ../runs/eval/night_val_top10.npz\n"}
+,{"stream_name":"stdout","time":10855.960651487,"data":"evaluated /kaggle/working/runs/night/rwsft_l0.25/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960655191,"data":"evaluated /kaggle/working/runs/night/rwsft_l0.5_e2/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960658979,"data":"evaluated /kaggle/working/runs/night/rwsft_l1.0/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960662789,"data":"evaluated /kaggle/working/runs/night/hit_b0.03/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960666529,"data":"evaluated /kaggle/working/runs/night/hit_b0.1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960671022,"data":"evaluated /kaggle/working/runs/night/ratio_b0.3_s1/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960675174,"data":"evaluated /kaggle/working/runs/fix/rwsft_l0.5/policy.pt\n"}
+,{"stream_name":"stdout","time":10855.960678958,"data":"evaluated /kaggle/working/runs/grpo/ratio_b0.3/step_00600.pt\n"}
+,{"stream_name":"stdout","time":10855.960683512,"data":"sft {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0337, 'duration_s': 189.1832, 'skip_gauc': 0.531}\n"}
+,{"stream_name":"stdout","time":10855.960687673,"data":"rwsft_l0.25/policy {'next_ndcg@10': 0.0227, 'lp_future_ndcg@10': 0.0345, 'duration_s': 185.815, 'skip_gauc': 0.5358}\n"}
+,{"stream_name":"stdout","time":10855.960691811,"data":"rwsft_l0.5_e2/policy {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0347, 'duration_s': 187.1066, 'skip_gauc': 0.5351}\n"}
+,{"stream_name":"stdout","time":10855.960695635,"data":"rwsft_l1.0/policy {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0343, 'duration_s': 187.6903, 'skip_gauc': 0.5334}\n"}
+,{"stream_name":"stdout","time":10855.960699947,"data":"hit_b0.03/step_00600 {'next_ndcg@10': 0.0247, 'lp_future_ndcg@10': 0.0349, 'duration_s': 186.6972, 'skip_gauc': 0.5274}\n"}
+,{"stream_name":"stdout","time":10855.960708578,"data":"hit_b0.1/step_00600 {'next_ndcg@10': 0.024, 'lp_future_ndcg@10': 0.0342, 'duration_s': 188.2359, 'skip_gauc': 0.5301}\n"}
+,{"stream_name":"stdout","time":10855.960712894,"data":"ratio_b0.3_s1/step_00600 {'next_ndcg@10': 0.0224, 'lp_future_ndcg@10': 0.0333, 'duration_s': 165.9605, 'skip_gauc': 0.5332}\n"}
+,{"stream_name":"stdout","time":10855.960717605,"data":"rwsft_l0.5/policy {'next_ndcg@10': 0.0231, 'lp_future_ndcg@10': 0.0344, 'duration_s': 186.7194, 'skip_gauc': 0.5345}\n"}
+,{"stream_name":"stdout","time":10855.960721794,"data":"ratio_b0.3/step_00600 {'next_ndcg@10': 0.0226, 'lp_future_ndcg@10': 0.0335, 'duration_s': 166.0778, 'skip_gauc': 0.5328}\n"}
+,{"stream_name":"stdout","time":10855.9607258,"data":"exit 0\n"}
+,{"stream_name":"stderr","time":10858.525301079,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10858.525328464,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10858.693765307,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10858.693788035,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10859.449499633,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":10859.537111328,"data":"[NbConvertApp] Writing 113323 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":10862.011072479,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10862.819245016,"data":"[NbConvertApp] Writing 780747 bytes to __results__.html\n"}
+]

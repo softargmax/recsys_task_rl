@@ -1,0 +1,17 @@
+$ python -m rl.evaluate --data ../data --sft ../runs/sft_base/policy.pt --rm-dir ../runs/rm2 --max-queries 10000 --slate-queries 2000 --best-of 4 16 --policies /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00200.pt /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00600.pt /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00400.pt /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00200.pt /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00600.pt /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00400.pt --out ../runs/eval/rm2_0.json --export-topk ../runs/eval/rm2_top10_0.npz
+evaluated /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo_rm2/norm_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.03/step_00400.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00200.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.1/step_00600.pt
+evaluated /kaggle/working/runs/grpo_rm2/ratio_b0.3/step_00400.pt
+sft {'next_ndcg@10': 0.0237, 'lp_future_ndcg@10': 0.0334, 'top10_proxy': 0.6868, 'duration_s': 189.6559, 'skip_gauc': 0.5525, 'slate_proxy': 2.7393, 'slate_judge': 2.7382}
+best_of_4 {'slate_proxy': 2.8046, 'slate_judge': 2.8, 'slate_kl_bound': 0.6363}
+best_of_16 {'slate_proxy': 2.8552, 'slate_judge': 2.8469, 'slate_kl_bound': 1.8351}
+norm_b0.1/step_00200 {'next_ndcg@10': 0.0201, 'lp_future_ndcg@10': 0.0299, 'top10_proxy': 0.693, 'duration_s': 190.6995, 'skip_gauc': 0.5468, 'slate_proxy': 2.7708, 'slate_judge': 2.7671, 'slate_kl': 1.3417}
+norm_b0.1/step_00600 {'next_ndcg@10': 0.0196, 'lp_future_ndcg@10': 0.0294, 'top10_proxy': 0.6941, 'duration_s': 192.7275, 'skip_gauc': 0.546, 'slate_proxy': 2.7754, 'slate_judge': 2.7719, 'slate_kl': 1.6405}
+ratio_b0.03/step_00400 {'next_ndcg@10': 0.0106, 'lp_future_ndcg@10': 0.0166, 'top10_proxy': 0.6993, 'duration_s': 128.7731, 'skip_gauc': 0.5273, 'slate_proxy': 2.8208, 'slate_judge': 2.8161, 'slate_kl': 12.6111}
+ratio_b0.1/step_00200 {'next_ndcg@10': 0.0198, 'lp_future_ndcg@10': 0.0287, 'top10_proxy': 0.698, 'duration_s': 155.9114, 'skip_gauc': 0.5465, 'slate_proxy': 2.7912, 'slate_judge': 2.7887, 'slate_kl': 2.98}
+ratio_b0.1/step_00600 {'next_ndcg@10': 0.0191, 'lp_future_ndcg@10': 0.0285, 'top10_proxy': 0.7002, 'duration_s': 153.463, 'skip_gauc': 0.5461, 'slate_proxy': 2.7986, 'slate_judge': 2.7958, 'slate_kl': 3.3564}
+ratio_b0.3/step_00400 {'next_ndcg@10': 0.0233, 'lp_future_ndcg@10': 0.0339, 'top10_proxy': 0.6954, 'duration_s': 170.2305, 'skip_gauc': 0.553, 'slate_proxy': 2.77, 'slate_judge': 2.768, 'slate_kl': 0.661}
+exit 0

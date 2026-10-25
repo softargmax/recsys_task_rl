@@ -1,0 +1,502 @@
+[{"stream_name":"stderr","time":7.947422997,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.947483653,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.947489541,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.947493604,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.583805006,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.583843477,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.58384795,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.583850873,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.88585838,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/810.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m307.2/810.4 kB\u001b[0m \u001b[31m9.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m810.4/810.4 kB\u001b[0m \u001b[31m11.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.397017206,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/45.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.0/45.8 MB\u001b[0m \u001b[31m119.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.7/45.8 MB\u001b[0m \u001b[31m141.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m16.1/45.8 MB\u001b[0m \u001b[31m177.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m22.1/45.8 MB\u001b[0m \u001b[31m178.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━\u001b[0m \u001b[32m27.9/45.8 MB\u001b[0m \u001b[31m169.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━\u001b[0m \u001b[32m34.5/45.8 MB\u001b[0m \u001b[31m181.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━\u001b[0m \u001b[32m40.1/45.8 MB\u001b[0m \u001b[31m176.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m197.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m197.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m197.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m197.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m197.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m45.8/45.8 MB\u001b[0m \u001b[31m44.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.366967505,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":18.367001991,"data":"cudf-polars-cu12 26.2.1 requires polars\u003c1.36,\u003e=1.30, but you have polars 1.38.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":18.582579381,"data":"\u001b[0mGPU 0: Tesla T4 (UUID: GPU-32f62fbe-c196-3c9e-4983-24647ef3174a)\n"}
+,{"stream_name":"stdout","time":18.582609473,"data":"GPU 1: Tesla T4 (UUID: GPU-b00d841d-b60c-cb72-152d-c3d244f43a2e)\n"}
+,{"stream_name":"stdout","time":18.58261451,"data":"\n"}
+,{"stream_name":"stdout","time":18.726293548,"data":"Writing /kaggle/working/code/rl/config.py\n"}
+,{"stream_name":"stdout","time":18.740893084,"data":"Writing /kaggle/working/code/rl/data.py\n"}
+,{"stream_name":"stdout","time":18.757292224,"data":"Writing /kaggle/working/code/rl/evaluate.py\n"}
+,{"stream_name":"stdout","time":18.770211183,"data":"Writing /kaggle/working/code/rl/grpo.py\n"}
+,{"stream_name":"stdout","time":18.785074235,"data":"Writing /kaggle/working/code/rl/metrics.py\n"}
+,{"stream_name":"stdout","time":18.802550992,"data":"Writing /kaggle/working/code/rl/model.py\n"}
+,{"stream_name":"stdout","time":18.815603598,"data":"Writing /kaggle/working/code/rl/optim.py\n"}
+,{"stream_name":"stdout","time":18.832313044,"data":"Writing /kaggle/working/code/rl/prepare.py\n"}
+,{"stream_name":"stdout","time":18.848939107,"data":"Writing /kaggle/working/code/rl/reward.py\n"}
+,{"stream_name":"stdout","time":18.863181732,"data":"Writing /kaggle/working/code/rl/rollout.py\n"}
+,{"stream_name":"stdout","time":18.877542849,"data":"Writing /kaggle/working/code/rl/sft.py\n"}
+,{"stream_name":"stdout","time":1042.256993986,"data":"users 9238, items 877168, t_end 26000000\r\n"}
+,{"stream_name":"stdout","time":1044.740708194,"data":"users 100-109300: 5002884 events\r\n"}
+,{"stream_name":"stdout","time":1047.328612835,"data":"users 109400-217000: 5147032 events\r\n"}
+,{"stream_name":"stdout","time":1049.665048186,"data":"users 217100-326400: 4949415 events\r\n"}
+,{"stream_name":"stdout","time":1053.676811443,"data":"users 326500-435500: 5353756 events\r\n"}
+,{"stream_name":"stdout","time":1056.924369493,"data":"users 435600-543100: 4983083 events\r\n"}
+,{"stream_name":"stdout","time":1059.111204622,"data":"users 543200-650200: 4754499 events\r\n"}
+,{"stream_name":"stdout","time":1061.34718542,"data":"users 650300-757800: 5273706 events\r\n"}
+,{"stream_name":"stdout","time":1064.390034938,"data":"users 757900-865300: 4986282 events\r\n"}
+,{"stream_name":"stdout","time":1066.116204606,"data":"users 865400-974500: 4781674 events\r\n"}
+,{"stream_name":"stdout","time":1066.42038436,"data":"users 974600-1000000: 1234881 events\r\n"}
+,{"stream_name":"stdout","time":1070.07949876,"data":"{\r\n"}
+,{"stream_name":"stdout","time":1070.079536622,"data":"  \"t_end\": 26000000,\r\n"}
+,{"stream_name":"stdout","time":1070.079542467,"data":"  \"users\": 9238,\r\n"}
+,{"stream_name":"stdout","time":1070.079546349,"data":"  \"events\": 46467212,\r\n"}
+,{"stream_name":"stdout","time":1070.079550181,"data":"  \"catalog_size\": 50000,\r\n"}
+,{"stream_name":"stdout","time":1070.079556068,"data":"  \"n_artists\": 20002,\r\n"}
+,{"stream_name":"stdout","time":1070.079564755,"data":"  \"catalog_event_share\": 0.8016023212238341,\r\n"}
+,{"stream_name":"stdout","time":1070.079567757,"data":"  \"queries\": {\r\n"}
+,{"stream_name":"stdout","time":1070.079570376,"data":"    \"rm_val\": 140312,\r\n"}
+,{"stream_name":"stdout","time":1070.07957362,"data":"    \"rm_test\": 136036,\r\n"}
+,{"stream_name":"stdout","time":1070.079576432,"data":"    \"test\": 53666,\r\n"}
+,{"stream_name":"stdout","time":1070.079579032,"data":"    \"val\": 54667,\r\n"}
+,{"stream_name":"stdout","time":1070.07958171,"data":"    \"rl\": 63998\r\n"}
+,{"stream_name":"stdout","time":1070.079584352,"data":"  }\r\n"}
+,{"stream_name":"stdout","time":1070.079586817,"data":"}\r\n"}
+,{"stream_name":"stdout","time":7750.933923341,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":7750.933979974,"data":"$ python -m rl.sft --data ../data --out-dir ../runs/sft_base --size base --epochs 3\n"}
+,{"stream_name":"stdout","time":7750.933986552,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.933997247,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.934000982,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.934004157,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":7750.934007303,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":7750.934015384,"data":"{\"epoch\": 1, \"steps\": 2644, \"next_recall@10\": 0.041, \"next_ndcg@10\": 0.020367493986750015, \"next_recall@20\": 0.0727, \"next_ndcg@20\": 0.028242497421761794, \"future_recall@10\": 0.036782857142857145, \"future_ndcg@10\": 0.029723307036462865, \"future_recall@20\": 0.06309642857142858, \"future_ndcg@20\": 0.041294603154230405}\n"}
+,{"stream_name":"stdout","time":7750.93402045,"data":"{\"epoch\": 2, \"steps\": 5286, \"next_recall@10\": 0.0456, \"next_ndcg@10\": 0.022502837248806664, \"next_recall@20\": 0.0833, \"next_ndcg@20\": 0.03189577011242109, \"future_recall@10\": 0.03916019841269841, \"future_ndcg@10\": 0.03216903138497455, \"future_recall@20\": 0.07198503968253968, \"future_ndcg@20\": 0.04614581660438596}\n"}
+,{"stream_name":"stdout","time":7750.934031277,"data":"{\"epoch\": 3, \"steps\": 7929, \"next_recall@10\": 0.0484, \"next_ndcg@10\": 0.023730775846201358, \"next_recall@20\": 0.0885, \"next_ndcg@20\": 0.033739442101949825, \"future_recall@10\": 0.041799920634920634, \"future_ndcg@10\": 0.033878680467370983, \"future_recall@20\": 0.07489976190476191, \"future_ndcg@20\": 0.04803626344924523}\n"}
+,{"stream_name":"stdout","time":7750.934034632,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":7750.934036883,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":7750.934039441,"data":"$ python -m rl.sft --data ../data --out-dir ../runs/sft_large --size large --epochs 3 --batch-size 32\n"}
+,{"stream_name":"stdout","time":7750.934042111,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.934046089,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.934048719,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7750.934051192,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":7750.934053759,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":7750.934056115,"data":"{\"epoch\": 1, \"steps\": 5288, \"next_recall@10\": 0.0398, \"next_ndcg@10\": 0.01962636637270693, \"next_recall@20\": 0.0687, \"next_ndcg@20\": 0.026847176968861346, \"future_recall@10\": 0.036134285714285716, \"future_ndcg@10\": 0.02853240736058761, \"future_recall@20\": 0.06232325396825397, \"future_ndcg@20\": 0.039787883290642034}\n"}
+,{"stream_name":"stdout","time":7750.934059328,"data":"{\"epoch\": 2, \"steps\": 10573, \"next_recall@10\": 0.0467, \"next_ndcg@10\": 0.022665902392032762, \"next_recall@20\": 0.0834, \"next_ndcg@20\": 0.031856966852789215, \"future_recall@10\": 0.0400168253968254, \"future_ndcg@10\": 0.03269181184409324, \"future_recall@20\": 0.07193619047619047, \"future_ndcg@20\": 0.04636423590885755}\n"}
+,{"stream_name":"stdout","time":7750.934062491,"data":"{\"epoch\": 3, \"steps\": 15860, \"next_recall@10\": 0.0497, \"next_ndcg@10\": 0.02379248548030554, \"next_recall@20\": 0.0878, \"next_ndcg@20\": 0.03328697984346873, \"future_recall@10\": 0.04301031746031746, \"future_ndcg@10\": 0.03425699700559087, \"future_recall@20\": 0.07650123015873014, \"future_ndcg@20\": 0.04841684439345819}\n"}
+,{"stream_name":"stdout","time":7750.934065687,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":7750.934067949,"data":"sft_base [\n"}
+,{"stream_name":"stdout","time":7750.934070335,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934072599,"data":"  \"epoch\": 1,\n"}
+,{"stream_name":"stdout","time":7750.93407494,"data":"  \"steps\": 2644,\n"}
+,{"stream_name":"stdout","time":7750.934077249,"data":"  \"next_recall@10\": 0.041,\n"}
+,{"stream_name":"stdout","time":7750.934079729,"data":"  \"next_ndcg@10\": 0.020367493986750015,\n"}
+,{"stream_name":"stdout","time":7750.934082086,"data":"  \"next_recall@20\": 0.0727,\n"}
+,{"stream_name":"stdout","time":7750.934084558,"data":"  \"next_ndcg@20\": 0.028242497421761794,\n"}
+,{"stream_name":"stdout","time":7750.934086881,"data":"  \"future_recall@10\": 0.036782857142857145,\n"}
+,{"stream_name":"stdout","time":7750.934091703,"data":"  \"future_ndcg@10\": 0.029723307036462865,\n"}
+,{"stream_name":"stdout","time":7750.93409421,"data":"  \"future_recall@20\": 0.06309642857142858,\n"}
+,{"stream_name":"stdout","time":7750.934131256,"data":"  \"future_ndcg@20\": 0.041294603154230405\n"}
+,{"stream_name":"stdout","time":7750.934136785,"data":" },\n"}
+,{"stream_name":"stdout","time":7750.93414049,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934143801,"data":"  \"epoch\": 2,\n"}
+,{"stream_name":"stdout","time":7750.934147237,"data":"  \"steps\": 5286,\n"}
+,{"stream_name":"stdout","time":7750.934150603,"data":"  \"next_recall@10\": 0.0456,\n"}
+,{"stream_name":"stdout","time":7750.934154071,"data":"  \"next_ndcg@10\": 0.022502837248806664,\n"}
+,{"stream_name":"stdout","time":7750.934157552,"data":"  \"next_recall@20\": 0.0833,\n"}
+,{"stream_name":"stdout","time":7750.934161009,"data":"  \"next_ndcg@20\": 0.03189577011242109,\n"}
+,{"stream_name":"stdout","time":7750.934164528,"data":"  \"future_recall@10\": 0.03916019841269841,\n"}
+,{"stream_name":"stdout","time":7750.934167995,"data":"  \"future_ndcg@10\": 0.03216903138497455,\n"}
+,{"stream_name":"stdout","time":7750.93417147,"data":"  \"future_recall@20\": 0.07198503968253968,\n"}
+,{"stream_name":"stdout","time":7750.934175663,"data":"  \"future_ndcg@20\": 0.04614581660438596\n"}
+,{"stream_name":"stdout","time":7750.934179409,"data":" },\n"}
+,{"stream_name":"stdout","time":7750.934184593,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934191906,"data":"  \"epoch\": 3,\n"}
+,{"stream_name":"stdout","time":7750.934194309,"data":"  \"steps\": 7929,\n"}
+,{"stream_name":"stdout","time":7750.934196608,"data":"  \"next_recall@10\": 0.0484,\n"}
+,{"stream_name":"stdout","time":7750.934198919,"data":"  \"next_ndcg@10\": 0.023730775846201358,\n"}
+,{"stream_name":"stdout","time":7750.934201227,"data":"  \"next_recall@20\": 0.0885,\n"}
+,{"stream_name":"stdout","time":7750.934203593,"data":"  \"next_ndcg@20\": 0.033739442101949825,\n"}
+,{"stream_name":"stdout","time":7750.934205911,"data":"  \"future_recall@10\": 0.041799920634920634,\n"}
+,{"stream_name":"stdout","time":7750.934208235,"data":"  \"future_ndcg@10\": 0.033878680467370983,\n"}
+,{"stream_name":"stdout","time":7750.934210571,"data":"  \"future_recall@20\": 0.07489976190476191,\n"}
+,{"stream_name":"stdout","time":7750.93421298,"data":"  \"future_ndcg@20\": 0.04803626344924523\n"}
+,{"stream_name":"stdout","time":7750.934215314,"data":" }\n"}
+,{"stream_name":"stdout","time":7750.934217529,"data":"]\n"}
+,{"stream_name":"stdout","time":7750.934219729,"data":"sft_large [\n"}
+,{"stream_name":"stdout","time":7750.934222073,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934224238,"data":"  \"epoch\": 1,\n"}
+,{"stream_name":"stdout","time":7750.934226701,"data":"  \"steps\": 5288,\n"}
+,{"stream_name":"stdout","time":7750.934228993,"data":"  \"next_recall@10\": 0.0398,\n"}
+,{"stream_name":"stdout","time":7750.934231357,"data":"  \"next_ndcg@10\": 0.01962636637270693,\n"}
+,{"stream_name":"stdout","time":7750.934233663,"data":"  \"next_recall@20\": 0.0687,\n"}
+,{"stream_name":"stdout","time":7750.934235952,"data":"  \"next_ndcg@20\": 0.026847176968861346,\n"}
+,{"stream_name":"stdout","time":7750.934238268,"data":"  \"future_recall@10\": 0.036134285714285716,\n"}
+,{"stream_name":"stdout","time":7750.934240601,"data":"  \"future_ndcg@10\": 0.02853240736058761,\n"}
+,{"stream_name":"stdout","time":7750.934242941,"data":"  \"future_recall@20\": 0.06232325396825397,\n"}
+,{"stream_name":"stdout","time":7750.934245255,"data":"  \"future_ndcg@20\": 0.039787883290642034\n"}
+,{"stream_name":"stdout","time":7750.934250596,"data":" },\n"}
+,{"stream_name":"stdout","time":7750.934252929,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934255106,"data":"  \"epoch\": 2,\n"}
+,{"stream_name":"stdout","time":7750.934257363,"data":"  \"steps\": 10573,\n"}
+,{"stream_name":"stdout","time":7750.934270958,"data":"  \"next_recall@10\": 0.0467,\n"}
+,{"stream_name":"stdout","time":7750.934273647,"data":"  \"next_ndcg@10\": 0.022665902392032762,\n"}
+,{"stream_name":"stdout","time":7750.934275834,"data":"  \"next_recall@20\": 0.0834,\n"}
+,{"stream_name":"stdout","time":7750.934278027,"data":"  \"next_ndcg@20\": 0.031856966852789215,\n"}
+,{"stream_name":"stdout","time":7750.93428021,"data":"  \"future_recall@10\": 0.0400168253968254,\n"}
+,{"stream_name":"stdout","time":7750.934282482,"data":"  \"future_ndcg@10\": 0.03269181184409324,\n"}
+,{"stream_name":"stdout","time":7750.93428465,"data":"  \"future_recall@20\": 0.07193619047619047,\n"}
+,{"stream_name":"stdout","time":7750.934286816,"data":"  \"future_ndcg@20\": 0.04636423590885755\n"}
+,{"stream_name":"stdout","time":7750.934289007,"data":" },\n"}
+,{"stream_name":"stdout","time":7750.93429115,"data":" {\n"}
+,{"stream_name":"stdout","time":7750.934293204,"data":"  \"epoch\": 3,\n"}
+,{"stream_name":"stdout","time":7750.934295324,"data":"  \"steps\": 15860,\n"}
+,{"stream_name":"stdout","time":7750.934297475,"data":"  \"next_recall@10\": 0.0497,\n"}
+,{"stream_name":"stdout","time":7750.934299708,"data":"  \"next_ndcg@10\": 0.02379248548030554,\n"}
+,{"stream_name":"stdout","time":7750.934301874,"data":"  \"next_recall@20\": 0.0878,\n"}
+,{"stream_name":"stdout","time":7750.934312658,"data":"  \"next_ndcg@20\": 0.03328697984346873,\n"}
+,{"stream_name":"stdout","time":7750.934315657,"data":"  \"future_recall@10\": 0.04301031746031746,\n"}
+,{"stream_name":"stdout","time":7750.93431792,"data":"  \"future_ndcg@10\": 0.03425699700559087,\n"}
+,{"stream_name":"stdout","time":7750.934320078,"data":"  \"future_recall@20\": 0.07650123015873014,\n"}
+,{"stream_name":"stdout","time":7750.934322245,"data":"  \"future_ndcg@20\": 0.04841684439345819\n"}
+,{"stream_name":"stdout","time":7750.93432443,"data":" }\n"}
+,{"stream_name":"stdout","time":7750.934326483,"data":"]\n"}
+,{"stream_name":"stdout","time":7750.934328732,"data":"selected sft_large {'sft_base': 0.023730775846201358, 'sft_large': 0.02379248548030554}\n"}
+,{"stream_name":"stdout","time":10994.184730983,"data":"gpu 0:\n"}
+,{"stream_name":"stdout","time":10994.184768558,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --base\n"}
+,{"stream_name":"stdout","time":10994.184777764,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184781368,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184784842,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.18478844,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.184791601,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.184794608,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.184804688,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.184807881,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.184810386,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.184812763,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.184814978,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.184817382,"data":"  \"auc\": 0.9078684940801837,\n"}
+,{"stream_name":"stdout","time":10994.184820326,"data":"  \"gauc_user\": 0.7143704718174153,\n"}
+,{"stream_name":"stdout","time":10994.184823831,"data":"  \"gauc_session\": 0.5785669700964562,\n"}
+,{"stream_name":"stdout","time":10994.184827454,"data":"  \"mae_ratio\": 0.1860782455654147,\n"}
+,{"stream_name":"stdout","time":10994.184830023,"data":"  \"auc_continue\": 0.6658589184441327,\n"}
+,{"stream_name":"stdout","time":10994.184832771,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.184835209,"data":"    0.9096163764397429,\n"}
+,{"stream_name":"stdout","time":10994.184837462,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.184839778,"data":"    0.908337375104892,\n"}
+,{"stream_name":"stdout","time":10994.184842014,"data":"    0.905914410934624,\n"}
+,{"stream_name":"stdout","time":10994.184844238,"data":"    0.9059939068899799\n"}
+,{"stream_name":"stdout","time":10994.184846538,"data":"  ]\n"}
+,{"stream_name":"stdout","time":10994.184848735,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.184851004,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.184855414,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 0\n"}
+,{"stream_name":"stdout","time":10994.184858089,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184861505,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184864105,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184867652,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.18487017,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.184872524,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.184874941,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.184877583,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.18488005,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.184882379,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.184884612,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.184887003,"data":"  \"auc\": 0.9090838167625437,\n"}
+,{"stream_name":"stdout","time":10994.18488931,"data":"  \"gauc_user\": 0.7230793192393018,\n"}
+,{"stream_name":"stdout","time":10994.184894848,"data":"  \"gauc_session\": 0.5982650618768306,\n"}
+,{"stream_name":"stdout","time":10994.184897279,"data":"  \"mae_ratio\": 0.1846906275403896,\n"}
+,{"stream_name":"stdout","time":10994.184899627,"data":"  \"auc_continue\": 0.6658595545360112,\n"}
+,{"stream_name":"stdout","time":10994.184901923,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.184904226,"data":"    0.9104357116675496,\n"}
+,{"stream_name":"stdout","time":10994.184906491,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.184908762,"data":"    0.9092381135512354,\n"}
+,{"stream_name":"stdout","time":10994.184911015,"data":"    0.9074369644199217,\n"}
+,{"stream_name":"stdout","time":10994.184913227,"data":"    0.9074121260133243\n"}
+,{"stream_name":"stdout","time":10994.18491546,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.184917696,"data":"  \"auc_residual\": 0.5813332635230237,\n"}
+,{"stream_name":"stdout","time":10994.184920005,"data":"  \"gauc_session_residual\": 0.5489630661659721\n"}
+,{"stream_name":"stdout","time":10994.184922376,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.184924544,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.184926834,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 2\n"}
+,{"stream_name":"stdout","time":10994.184929386,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.18493194,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184934448,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.184936898,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.184939349,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.184941655,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.184944023,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.184946467,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.184948915,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.184951368,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.184953626,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.184955906,"data":"  \"auc\": 0.9083379728518644,\n"}
+,{"stream_name":"stdout","time":10994.184958195,"data":"  \"gauc_user\": 0.719910818534193,\n"}
+,{"stream_name":"stdout","time":10994.184960531,"data":"  \"gauc_session\": 0.5959211665639447,\n"}
+,{"stream_name":"stdout","time":10994.184963168,"data":"  \"mae_ratio\": 0.18594214290785366,\n"}
+,{"stream_name":"stdout","time":10994.184965536,"data":"  \"auc_continue\": 0.6595782808335774,\n"}
+,{"stream_name":"stdout","time":10994.184967852,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.184970169,"data":"    0.9093334220419377,\n"}
+,{"stream_name":"stdout","time":10994.184972404,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.184976898,"data":"    0.9087520628167732,\n"}
+,{"stream_name":"stdout","time":10994.184979216,"data":"    0.9067307423898493,\n"}
+,{"stream_name":"stdout","time":10994.184981448,"data":"    0.9066505879093794\n"}
+,{"stream_name":"stdout","time":10994.184983675,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.184985872,"data":"  \"auc_residual\": 0.5544851926100328,\n"}
+,{"stream_name":"stdout","time":10994.184988187,"data":"  \"gauc_session_residual\": 0.5394704244475048\n"}
+,{"stream_name":"stdout","time":10994.184990509,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.184992675,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.184994855,"data":"gpu 1:\n"}
+,{"stream_name":"stdout","time":10994.184997088,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 1\n"}
+,{"stream_name":"stdout","time":10994.184999496,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185001989,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185004491,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.18500711,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.185009546,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.185011881,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.185014256,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.185016766,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.185019282,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.185021589,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.18502378,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185026081,"data":"  \"auc\": 0.908427650057849,\n"}
+,{"stream_name":"stdout","time":10994.185028381,"data":"  \"gauc_user\": 0.7192212636696416,\n"}
+,{"stream_name":"stdout","time":10994.185030683,"data":"  \"gauc_session\": 0.5953806420141337,\n"}
+,{"stream_name":"stdout","time":10994.185032972,"data":"  \"mae_ratio\": 0.18561430029298073,\n"}
+,{"stream_name":"stdout","time":10994.185035256,"data":"  \"auc_continue\": 0.6591606633464596,\n"}
+,{"stream_name":"stdout","time":10994.185037566,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185039854,"data":"    0.909666446502497,\n"}
+,{"stream_name":"stdout","time":10994.18504211,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185044326,"data":"    0.908861521455357,\n"}
+,{"stream_name":"stdout","time":10994.18504654,"data":"    0.9067568033513941,\n"}
+,{"stream_name":"stdout","time":10994.185048789,"data":"    0.906648959718676\n"}
+,{"stream_name":"stdout","time":10994.185051024,"data":"  ]\n"}
+,{"stream_name":"stdout","time":10994.18505322,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185055466,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.185057693,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 3\n"}
+,{"stream_name":"stdout","time":10994.185062339,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185065237,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185067787,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185070242,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.185072708,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.185075023,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.185077363,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.18507977,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.185082212,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.185084514,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.185086721,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185088992,"data":"  \"auc\": 0.9084433848615716,\n"}
+,{"stream_name":"stdout","time":10994.185091243,"data":"  \"gauc_user\": 0.7213461550647409,\n"}
+,{"stream_name":"stdout","time":10994.185093498,"data":"  \"gauc_session\": 0.5971268279179182,\n"}
+,{"stream_name":"stdout","time":10994.185128755,"data":"  \"mae_ratio\": 0.18568388146029458,\n"}
+,{"stream_name":"stdout","time":10994.18513344,"data":"  \"auc_continue\": 0.6607459625783115,\n"}
+,{"stream_name":"stdout","time":10994.185137624,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185152223,"data":"    0.9096345664148032,\n"}
+,{"stream_name":"stdout","time":10994.185157031,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.1851643,"data":"    0.908853452468275,\n"}
+,{"stream_name":"stdout","time":10994.185166561,"data":"    0.9068379732110023,\n"}
+,{"stream_name":"stdout","time":10994.185168683,"data":"    0.9066699053054261\n"}
+,{"stream_name":"stdout","time":10994.185170762,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.185172855,"data":"  \"auc_residual\": 0.540811518261344,\n"}
+,{"stream_name":"stdout","time":10994.185175023,"data":"  \"gauc_session_residual\": 0.536325478391873\n"}
+,{"stream_name":"stdout","time":10994.185177232,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185179269,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.185181363,"data":"$ python -m rl.reward --data ../data --sft ../runs/sft/policy.pt --out-dir ../runs/rm --member 4\n"}
+,{"stream_name":"stdout","time":10994.185183655,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185186011,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185188417,"data":"/kaggle/working/code/rl/optim.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10994.185193397,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10994.185195815,"data":"  self.sums[k] = self.sums.get(k, 0.0) + float(v)\n"}
+,{"stream_name":"stdout","time":10994.185198012,"data":"/kaggle/working/code/rl/metrics.py:28: RuntimeWarning: Mean of empty slice.\n"}
+,{"stream_name":"stdout","time":10994.185200218,"data":"  return float(roc_auc_score(y, s)) if 0 \u003c y.mean() \u003c 1 else float(\"nan\")\n"}
+,{"stream_name":"stdout","time":10994.185203166,"data":"/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide\n"}
+,{"stream_name":"stdout","time":10994.185205486,"data":"  ret = ret.dtype.type(ret / rcount)\n"}
+,{"stream_name":"stdout","time":10994.185207669,"data":"{\n"}
+,{"stream_name":"stdout","time":10994.185209714,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185211822,"data":"  \"auc\": 0.9083292239624685,\n"}
+,{"stream_name":"stdout","time":10994.185214023,"data":"  \"gauc_user\": 0.7221197644301367,\n"}
+,{"stream_name":"stdout","time":10994.185216149,"data":"  \"gauc_session\": 0.5988002900386576,\n"}
+,{"stream_name":"stdout","time":10994.185218296,"data":"  \"mae_ratio\": 0.18613363337778185,\n"}
+,{"stream_name":"stdout","time":10994.185220415,"data":"  \"auc_continue\": 0.6606467761759315,\n"}
+,{"stream_name":"stdout","time":10994.185222572,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185224842,"data":"    0.9096697200744703,\n"}
+,{"stream_name":"stdout","time":10994.185227047,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185229092,"data":"    0.9087112784538837,\n"}
+,{"stream_name":"stdout","time":10994.18523124,"data":"    0.9066099042382596,\n"}
+,{"stream_name":"stdout","time":10994.185233311,"data":"    0.9066078425592462\n"}
+,{"stream_name":"stdout","time":10994.185235391,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.185237448,"data":"  \"auc_residual\": 0.49310145228125435,\n"}
+,{"stream_name":"stdout","time":10994.185239696,"data":"  \"gauc_session_residual\": 0.5288597740392391\n"}
+,{"stream_name":"stdout","time":10994.185241886,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185243899,"data":"exit 0\n"}
+,{"stream_name":"stdout","time":10994.185245944,"data":"base_val.json {\n"}
+,{"stream_name":"stdout","time":10994.18524813,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.18525022,"data":"  \"auc\": 0.9078684940801837,\n"}
+,{"stream_name":"stdout","time":10994.185252362,"data":"  \"gauc_user\": 0.7143704718174153,\n"}
+,{"stream_name":"stdout","time":10994.185254491,"data":"  \"gauc_session\": 0.5785669700964562,\n"}
+,{"stream_name":"stdout","time":10994.185256706,"data":"  \"mae_ratio\": 0.1860782455654147,\n"}
+,{"stream_name":"stdout","time":10994.185258835,"data":"  \"auc_continue\": 0.6658589184441327,\n"}
+,{"stream_name":"stdout","time":10994.18526097,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185263089,"data":"    0.9096163764397429,\n"}
+,{"stream_name":"stdout","time":10994.185265155,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185267195,"data":"    0.908337375104892,\n"}
+,{"stream_name":"stdout","time":10994.185269284,"data":"    0.905914410934624,\n"}
+,{"stream_name":"stdout","time":10994.185271358,"data":"    0.9059939068899799\n"}
+,{"stream_name":"stdout","time":10994.185273431,"data":"  ]\n"}
+,{"stream_name":"stdout","time":10994.185277469,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185279585,"data":"member_0_val.json {\n"}
+,{"stream_name":"stdout","time":10994.18528168,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185283766,"data":"  \"auc\": 0.9090838167625437,\n"}
+,{"stream_name":"stdout","time":10994.185285914,"data":"  \"gauc_user\": 0.7230793192393018,\n"}
+,{"stream_name":"stdout","time":10994.18528809,"data":"  \"gauc_session\": 0.5982650618768306,\n"}
+,{"stream_name":"stdout","time":10994.185290245,"data":"  \"mae_ratio\": 0.1846906275403896,\n"}
+,{"stream_name":"stdout","time":10994.185292399,"data":"  \"auc_continue\": 0.6658595545360112,\n"}
+,{"stream_name":"stdout","time":10994.18529454,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185296675,"data":"    0.9104357116675496,\n"}
+,{"stream_name":"stdout","time":10994.18529876,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185300815,"data":"    0.9092381135512354,\n"}
+,{"stream_name":"stdout","time":10994.185302888,"data":"    0.9074369644199217,\n"}
+,{"stream_name":"stdout","time":10994.185304963,"data":"    0.9074121260133243\n"}
+,{"stream_name":"stdout","time":10994.18530705,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.18530911,"data":"  \"auc_residual\": 0.5813332635230237,\n"}
+,{"stream_name":"stdout","time":10994.18531127,"data":"  \"gauc_session_residual\": 0.5489630661659721\n"}
+,{"stream_name":"stdout","time":10994.185313531,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185315549,"data":"member_1_val.json {\n"}
+,{"stream_name":"stdout","time":10994.18531763,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.18532583,"data":"  \"auc\": 0.908427650057849,\n"}
+,{"stream_name":"stdout","time":10994.185328075,"data":"  \"gauc_user\": 0.7192212636696416,\n"}
+,{"stream_name":"stdout","time":10994.185330221,"data":"  \"gauc_session\": 0.5953806420141337,\n"}
+,{"stream_name":"stdout","time":10994.185332384,"data":"  \"mae_ratio\": 0.18561430029298073,\n"}
+,{"stream_name":"stdout","time":10994.185334541,"data":"  \"auc_continue\": 0.6591606633464596,\n"}
+,{"stream_name":"stdout","time":10994.185336675,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185338808,"data":"    0.909666446502497,\n"}
+,{"stream_name":"stdout","time":10994.185340903,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185342951,"data":"    0.908861521455357,\n"}
+,{"stream_name":"stdout","time":10994.185345011,"data":"    0.9067568033513941,\n"}
+,{"stream_name":"stdout","time":10994.185347108,"data":"    0.906648959718676\n"}
+,{"stream_name":"stdout","time":10994.185349187,"data":"  ]\n"}
+,{"stream_name":"stdout","time":10994.185351256,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.18535328,"data":"member_2_val.json {\n"}
+,{"stream_name":"stdout","time":10994.185355346,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.18535742,"data":"  \"auc\": 0.9083379728518644,\n"}
+,{"stream_name":"stdout","time":10994.185359564,"data":"  \"gauc_user\": 0.719910818534193,\n"}
+,{"stream_name":"stdout","time":10994.185361748,"data":"  \"gauc_session\": 0.5959211665639447,\n"}
+,{"stream_name":"stdout","time":10994.185363918,"data":"  \"mae_ratio\": 0.18594214290785366,\n"}
+,{"stream_name":"stdout","time":10994.185366063,"data":"  \"auc_continue\": 0.6595782808335774,\n"}
+,{"stream_name":"stdout","time":10994.185368285,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185370433,"data":"    0.9093334220419377,\n"}
+,{"stream_name":"stdout","time":10994.185374816,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.18537694,"data":"    0.9087520628167732,\n"}
+,{"stream_name":"stdout","time":10994.18537903,"data":"    0.9067307423898493,\n"}
+,{"stream_name":"stdout","time":10994.18538151,"data":"    0.9066505879093794\n"}
+,{"stream_name":"stdout","time":10994.185383649,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.1853857,"data":"  \"auc_residual\": 0.5544851926100328,\n"}
+,{"stream_name":"stdout","time":10994.185387851,"data":"  \"gauc_session_residual\": 0.5394704244475048\n"}
+,{"stream_name":"stdout","time":10994.185390024,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.185392053,"data":"member_3_val.json {\n"}
+,{"stream_name":"stdout","time":10994.185394124,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185396231,"data":"  \"auc\": 0.9084433848615716,\n"}
+,{"stream_name":"stdout","time":10994.185398364,"data":"  \"gauc_user\": 0.7213461550647409,\n"}
+,{"stream_name":"stdout","time":10994.185400543,"data":"  \"gauc_session\": 0.5971268279179182,\n"}
+,{"stream_name":"stdout","time":10994.185402696,"data":"  \"mae_ratio\": 0.18568388146029458,\n"}
+,{"stream_name":"stdout","time":10994.185404848,"data":"  \"auc_continue\": 0.6607459625783115,\n"}
+,{"stream_name":"stdout","time":10994.185407065,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185409188,"data":"    0.9096345664148032,\n"}
+,{"stream_name":"stdout","time":10994.185411341,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185413377,"data":"    0.908853452468275,\n"}
+,{"stream_name":"stdout","time":10994.185415736,"data":"    0.9068379732110023,\n"}
+,{"stream_name":"stdout","time":10994.185417822,"data":"    0.9066699053054261\n"}
+,{"stream_name":"stdout","time":10994.185419905,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.185421943,"data":"  \"auc_residual\": 0.540811518261344,\n"}
+,{"stream_name":"stdout","time":10994.185424184,"data":"  \"gauc_session_residual\": 0.536325478391873\n"}
+,{"stream_name":"stdout","time":10994.185426368,"data":"}\n"}
+,{"stream_name":"stdout","time":10994.18542838,"data":"member_4_val.json {\n"}
+,{"stream_name":"stdout","time":10994.185430466,"data":"  \"n\": 140312,\n"}
+,{"stream_name":"stdout","time":10994.185432624,"data":"  \"auc\": 0.9083292239624685,\n"}
+,{"stream_name":"stdout","time":10994.185434781,"data":"  \"gauc_user\": 0.7221197644301367,\n"}
+,{"stream_name":"stdout","time":10994.185436915,"data":"  \"gauc_session\": 0.5988002900386576,\n"}
+,{"stream_name":"stdout","time":10994.18543908,"data":"  \"mae_ratio\": 0.18613363337778185,\n"}
+,{"stream_name":"stdout","time":10994.185441221,"data":"  \"auc_continue\": 0.6606467761759315,\n"}
+,{"stream_name":"stdout","time":10994.185443352,"data":"  \"auc_by_duration_quintile\": [\n"}
+,{"stream_name":"stdout","time":10994.185445478,"data":"    0.9096697200744703,\n"}
+,{"stream_name":"stdout","time":10994.18544756,"data":"    NaN,\n"}
+,{"stream_name":"stdout","time":10994.185449602,"data":"    0.9087112784538837,\n"}
+,{"stream_name":"stdout","time":10994.185451664,"data":"    0.9066099042382596,\n"}
+,{"stream_name":"stdout","time":10994.18545375,"data":"    0.9066078425592462\n"}
+,{"stream_name":"stdout","time":10994.185455836,"data":"  ],\n"}
+,{"stream_name":"stdout","time":10994.185457882,"data":"  \"auc_residual\": 0.49310145228125435,\n"}
+,{"stream_name":"stdout","time":10994.185460101,"data":"  \"gauc_session_residual\": 0.5288597740392391\n"}
+,{"stream_name":"stdout","time":10994.185462294,"data":"}\n"}
+,{"stream_name":"stdout","time":11004.5109779,"data":"[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\r\n"}
+,{"stream_name":"stdout","time":11004.511033778,"data":"[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.\r\n"}
+,{"stream_name":"stdout","time":12360.343284503,"data":"Traceback (most recent call last):\r\n"}
+,{"stream_name":"stdout","time":12360.343330525,"data":"  File \u001b[35m\"\u003cfrozen runpy\u003e\"\u001b[0m, line \u001b[35m203\u001b[0m, in \u001b[35m_run_module_as_main\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343339369,"data":"  File \u001b[35m\"\u003cfrozen runpy\u003e\"\u001b[0m, line \u001b[35m88\u001b[0m, in \u001b[35m_run_code\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343345632,"data":"  File \u001b[35m\"/kaggle/working/code/rl/evaluate.py\"\u001b[0m, line \u001b[35m214\u001b[0m, in \u001b[35m\u003cmodule\u003e\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343351461,"data":"    \u001b[31mmain\u001b[0m\u001b[1;31m()\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343357391,"data":"    \u001b[31m~~~~\u001b[0m\u001b[1;31m^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343362549,"data":"  File \u001b[35m\"/kaggle/working/code/rl/evaluate.py\"\u001b[0m, line \u001b[35m193\u001b[0m, in \u001b[35mmain\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343368735,"data":"    slates = slate_eval(ref, ref, rewards, data, slate_positions, device, n_best=n)\r\n"}
+,{"stream_name":"stdout","time":12360.343373966,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\"\u001b[0m, line \u001b[35m124\u001b[0m, in \u001b[35mdecorate_context\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343379926,"data":"    return func(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343385434,"data":"  File \u001b[35m\"/kaggle/working/code/rl/evaluate.py\"\u001b[0m, line \u001b[35m109\u001b[0m, in \u001b[35mslate_eval\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343391611,"data":"    slates = sample_slates(policy, batch, data, n_best, slate)\r\n"}
+,{"stream_name":"stdout","time":12360.343396899,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\"\u001b[0m, line \u001b[35m124\u001b[0m, in \u001b[35mdecorate_context\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343402915,"data":"    return func(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343408387,"data":"  File \u001b[35m\"/kaggle/working/code/rl/rollout.py\"\u001b[0m, line \u001b[35m13\u001b[0m, in \u001b[35msample_slates\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343414792,"data":"    logits = \u001b[31mpolicy.next_logits\u001b[0m\u001b[1;31m(b)\u001b[0m.float()\r\n"}
+,{"stream_name":"stdout","time":12360.34342064,"data":"             \u001b[31m~~~~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343426227,"data":"  File \u001b[35m\"/kaggle/working/code/rl/model.py\"\u001b[0m, line \u001b[35m63\u001b[0m, in \u001b[35mnext_logits\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343432074,"data":"    return self.logits(\u001b[31mself.encoder\u001b[0m\u001b[1;31m(b)\u001b[0m[:, -1])\r\n"}
+,{"stream_name":"stdout","time":12360.343437722,"data":"                       \u001b[31m~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343444021,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1779\u001b[0m, in \u001b[35m_wrapped_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343450792,"data":"    return \u001b[31mself._call_impl\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343466651,"data":"           \u001b[31m~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34347158,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1790\u001b[0m, in \u001b[35m_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343476492,"data":"    return forward_call(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343480528,"data":"  File \u001b[35m\"/kaggle/working/code/rl/model.py\"\u001b[0m, line \u001b[35m40\u001b[0m, in \u001b[35mforward\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343486779,"data":"    out = self.gpt(inputs_embeds=self.emb(b), attention_mask=b[\"mask\"].long(), position_ids=b[\"pos\"],\r\n"}
+,{"stream_name":"stdout","time":12360.343491485,"data":"                   use_cache=False)\r\n"}
+,{"stream_name":"stdout","time":12360.343495998,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1779\u001b[0m, in \u001b[35m_wrapped_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343501268,"data":"    return \u001b[31mself._call_impl\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343505831,"data":"           \u001b[31m~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343510505,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1790\u001b[0m, in \u001b[35m_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343515681,"data":"    return forward_call(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343519952,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py\"\u001b[0m, line \u001b[35m1068\u001b[0m, in \u001b[35mwrapper\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343525035,"data":"    output = func(self, *args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343529525,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py\"\u001b[0m, line \u001b[35m262\u001b[0m, in \u001b[35mwrapper\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34353442,"data":"    outputs = func(self, *args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343538896,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\"\u001b[0m, line \u001b[35m608\u001b[0m, in \u001b[35mforward\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343544096,"data":"    hidden_states = block(\r\n"}
+,{"stream_name":"stdout","time":12360.343548455,"data":"        hidden_states,\r\n"}
+,{"stream_name":"stdout","time":12360.343553006,"data":"    ...\u003c6 lines\u003e...\r\n"}
+,{"stream_name":"stdout","time":12360.343556943,"data":"        **kwargs,\r\n"}
+,{"stream_name":"stdout","time":12360.343561204,"data":"    )\r\n"}
+,{"stream_name":"stdout","time":12360.343565278,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\"\u001b[0m, line \u001b[35m114\u001b[0m, in \u001b[35m__call__\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343570708,"data":"    return \u001b[31msuper().__call__\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343576102,"data":"           \u001b[31m~~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343580797,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1779\u001b[0m, in \u001b[35m_wrapped_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343590218,"data":"    return \u001b[31mself._call_impl\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343595076,"data":"           \u001b[31m~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34359958,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1790\u001b[0m, in \u001b[35m_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343604692,"data":"    return forward_call(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343609174,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\"\u001b[0m, line \u001b[35m274\u001b[0m, in \u001b[35mforward\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34361468,"data":"    attn_output, _ = \u001b[31mself.attn\u001b[0m\u001b[1;31m(\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343619873,"data":"                     \u001b[31m~~~~~~~~~\u001b[0m\u001b[1;31m^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343624776,"data":"        \u001b[1;31mhidden_states,\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343629318,"data":"        \u001b[1;31m^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343634006,"data":"    ...\u003c3 lines\u003e...\r\n"}
+,{"stream_name":"stdout","time":12360.343638362,"data":"        \u001b[1;31m**kwargs,\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343642857,"data":"        \u001b[1;31m^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343647321,"data":"    \u001b[1;31m)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343651729,"data":"    \u001b[1;31m^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34365674,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1779\u001b[0m, in \u001b[35m_wrapped_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343662128,"data":"    return \u001b[31mself._call_impl\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343666304,"data":"           \u001b[31m~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.34367083,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1790\u001b[0m, in \u001b[35m_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343675286,"data":"    return forward_call(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343679552,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/models/gpt2/modeling_gpt2.py\"\u001b[0m, line \u001b[35m223\u001b[0m, in \u001b[35mforward\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343684936,"data":"    attn_output = self.c_proj(attn_output)\r\n"}
+,{"stream_name":"stdout","time":12360.343689525,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1779\u001b[0m, in \u001b[35m_wrapped_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.3436943,"data":"    return \u001b[31mself._call_impl\u001b[0m\u001b[1;31m(*args, **kwargs)\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343698826,"data":"           \u001b[31m~~~~~~~~~~~~~~~\u001b[0m\u001b[1;31m^^^^^^^^^^^^^^^^^\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343703838,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py\"\u001b[0m, line \u001b[35m1790\u001b[0m, in \u001b[35m_call_impl\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343720705,"data":"    return forward_call(*args, **kwargs)\r\n"}
+,{"stream_name":"stdout","time":12360.343728396,"data":"  File \u001b[35m\"/usr/local/lib/python3.13/dist-packages/transformers/pytorch_utils.py\"\u001b[0m, line \u001b[35m119\u001b[0m, in \u001b[35mforward\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12360.343733409,"data":"    x = torch.addmm(self.bias, x.view(-1, x.size(-1)), self.weight)\r\n"}
+,{"stream_name":"stdout","time":12360.343741162,"data":"\u001b[1;35mtorch.OutOfMemoryError\u001b[0m: \u001b[35mCUDA out of memory. Tried to allocate 1024.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 404.81 MiB is free. Including non-PyTorch memory, this process has 14.16 GiB memory in use. Of the allocated memory 13.74 GiB is allocated by PyTorch, and 299.47 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\u001b[0m\r\n"}
+,{"stream_name":"stderr","time":12364.562534718,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12364.562566526,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12364.751903645,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12364.751947313,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12365.628763184,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":12365.734194644,"data":"[NbConvertApp] Writing 115514 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":12368.350203661,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12369.166525428,"data":"[NbConvertApp] Writing 693710 bytes to __results__.html\n"}
+]
